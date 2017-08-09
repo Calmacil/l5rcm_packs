@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <KataDef mastery="3" element="air" id="breath_of_wind_style" name="Style du Souffle du Vent">
+    <Description>Votre score d'Initiative augmente de 2 lors de l'étape de Réactions de chaque Round. L'effet peut se cumuler mais disparait aussitôt que le Kata n'agit plus.</Description>
+    <Requirements>
+      <Requirement field="crane_kakita_bushi_school" type="tag">Bushi Kakita</Requirement>
+      <Requirement field="scorpion_bayushi_bushi_school" type="tag">Bushi Bayushi</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="3" element="air" id="striking_as_air" name="Frappe comme l'Air">
+    <Description>Lorsque vous adoptez la Posture de Défense, votre ND d'armure augmente de votre Anneau d'Air</Description>
+    <Requirements/>
+  </KataDef>
+  <KataDef mastery="4" element="air" id="hidden_blade_style" name="Style du Sabre Caché">
+    <Description>Vos attaques de Désarmement infligent des dommages normaux et non 2g1. Vous ne pouvez cependant pas accroître ces dommages au moyen d'Augmentations (y compris en utilisant la manœuvre de Feinte)</Description>
+    <Requirements>
+      <Requirement field="scorpion_bayushi_bushi_school" type="tag">Bushi Bayushi</Requirement>
+      <Requirement field="mantis_yoritomo_bushi_school" type="tag">Bushi Yoritomo</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="4" element="air" id="iron_forest_style" name="Style de la Forêt de Fer">
+    <Description>Lorsque vous maniez une Arme d'Hast ou une Lance, vous pouvez utiliser votre Anneau d'Air au lieu de votre Agilité pour un jet d'attaque.</Description>
+    <Requirements>
+      <Requirement field="daidoji_iron_warrior" type="tag">Guerrier de Fer Daidoji</Requirement>
+      <Requirement field="boar_heichi_bushi_school" type="tag">Bushi Heichi</Requirement>
+      <Requirement field="phoenix_shiba_bushi_school" type="tag">Bushi Shiba</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="4" element="air" id="veiled_menace_style" name="Style de la Menace Voilée">
+    <Description>Une fois par Tour, vous pouvez ajouter votre Rang de Discrétion à votre ND d'Armure contre une seule attaque.</Description>
+    <Requirements>
+      <Requirement field="scorpion_bayushi_bushi_school" type="tag">Bushi Bayushi</Requirement>
+      <Requirement field="crab_hiruma_bushi_school" type="tag">Bushi Hiruma</Requirement>
+      <Requirement field="mantis_tsuruchi_archer_school" type="tag">Bushi Tsurushi</Requirement>
+      <Requirement field="mantis_yoritomo_bushi_school" type="tag">Bushi Yoritomo</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="3" element="earth" id="iron_in_the_mountains_style" name="Style du Fer dans les Montagnes">
+    <Description>Vous pouvez utiliser votre Anneau de Terre à la place de votre Anneau d'Air lorsque vous adoptez la Posture de Défense.</Description>
+    <Requirements>
+      <Requirement field="daidoji_iron_warrior" type="tag">Guerrier de Fer Daidoji</Requirement>
+      <Requirement field="crab_hida_bushi_school" type="tag">Bushi Hida</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="3" element="earth" id="striking_as_earth" name="Frappe comme la Terre">
+    <Description>Lorsque vous adoptez la Posture d'Esquive, vous gagnez une Réduction égale à votre Anneau de Terre.</Description>
+    <Requirements/>
+  </KataDef>
+  <KataDef mastery="4" element="earth" id="indomitable_warrior_style" name="Style du Guerrier Indomptable">
+    <Description>Réduisez vos Malus de Blessure de votre Anneau de Terre</Description>
+    <Requirements>
+      <Requirement field="spider_daigotsu_bushi_school" type="tag">Bushi Daigotsu</Requirement>
+      <Requirement field="crab_hida_bushi_school" type="tag">Bushi Hida</Requirement>
+      <Requirement field="badger_ichiro_bushi_school" type="tag">Bushi Ichiro</Requirement>
+      <Requirement field="unicorn_moto_bushi_school" type="tag">Bushi Moto</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="3" element="fire" id="striking_as_fire" name="Frappe comme le Feu">
+    <Description>Lorsque vous adoptez la Posture d'Assaut, vous pouvez ajouter votre Anneau de Feu au total d'un jet d'Attaque par Round.</Description>
+    <Requirements/>
+  </KataDef>
+  <KataDef mastery="4" element="fire" id="disappearing_world_style" name="Style du Monde Disparu">
+    <Description>Choisissez un adversaire. Une fois par Tour, vous pouvez utiliser contre lui votre Agilité au lieu de votre Force pour les jets de dommages.</Description>
+    <Requirements>
+      <Requirement field="lion_akodo_bushi_school" type="tag">Bushi Akodo</Requirement>
+      <Requirement field="crane_kakita_bushi_school" type="tag">Bushi Kakita</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="4" element="fire" id="reckless_abandon_style" name="Style de la Témérité Aveugle">
+    <Description>Vous pouvez ajouter votre Anneau de Feu à votre ND d'Armure lorsque vous adoptez la Posture d'Assaut.</Description>
+    <Requirements>
+      <Requirement field="spider_daigotsu_bushi_school" type="tag">Bushi Daigotsu</Requirement>
+      <Requirement field="lion_matsu_berserker_school" type="tag">Berserker Matsu</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="5" element="fire" id="spinning_blades_style" name="Style des Lames Tournoyantes">
+    <Description>Une fois par Tour, lorsque vous maniez une arme dans chaque main, vous pouvez entreprendre la manœuvre d'Attaque Supplémentaire pour 3 Augmentations au lieu de 5. La seconde attaque est portée au moyen de votre arme secondaire et inflige des dégâts normaux. Vous ne pouvez accroître les dommages d'aucune Attaque au moyen d'Augmentations.</Description>
+    <Requirements>
+      <Requirement field="dragon_mirumoto_bushi_school" type="tag">Bushi Mirumoto</Requirement>
+      <Requirement field="mantis_yoritomo_bushi_school" type="tag">Bushi Yoritomo</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="3" element="void" id="balance_the_elements_style" name="Style de l'Équilibre des Éléments">
+    <Description>Vous pouvez utiliser votre Anneau de Vide à la place de vos Réflexes pour les jets d'Initiative.</Description>
+    <Requirements>
+      <Requirement field="dragon_mirumoto_bushi_school" type="tag">Bushi Mirumoto</Requirement>
+      <Requirement field="phoenix_shiba_bushi_school" type="tag">Bushi Shiba</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="3" element="void" id="striking_as_void" name="Frappe comme le Vide">
+    <Description>Lorsque vous adoptez la Posture du Centre, votre ND d'Armure augmente de votre Anneau de Vide</Description>
+    <Requirements/>
+  </KataDef>
+  <KataDef mastery="4" element="void" id="strength_of_purity_style" name="Style de la Force de Pureté">
+    <Description>Une fois par tour, lorsque vous déterminez les dommages, vous pouvez lancer votre rang d'Honneur au lieu de votre Force + VD de l'arme. Vous gardez un nombre de dés égal à la VD de l'arme comme d'habitude.</Description>
+    <Requirements>
+      <Requirement field="lion_akodo_bushi_school" type="tag">Bushi Akodo</Requirement>
+      <Requirement field="crane_kakita_bushi_school" type="tag">Bushi Kakita</Requirement>
+      <Requirement field="lion_matsu_berserker_school" type="tag">Berserker Matsu</Requirement>
+      <Requirement field="unicorn_utaku_battle_maiden" type="tag">Vierge de Bataille Utaku</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="4" element="water" id="strength_in_arms_style" name="Style de la Force d'Armes">
+    <Description>Une fois par tour, lorsque vous maniez une Arme Lourde, vous pouvez utiliser votre Force au lieu de votre Agilité pour un jet d'Attaque.</Description>
+    <Requirements>
+      <Requirement field="crab_hida_bushi_school" type="tag">Bushi Hida</Requirement>
+      <Requirement field="badger_ichiro_bushi_school" type="tag">Bushi Ichiro</Requirement>
+      <Requirement field="unicorn_moto_bushi_school" type="tag">Bushi Moto</Requirement>
+    </Requirements>
+  </KataDef>
+  <KataDef mastery="4" element="water" id="striking_as_water" name="Frappe comme l'Eau">
+    <Description>Lorsque vous adoptez la Posture d'Attaque, vous pouvez vous déplacer de 1,5m de plus au moyen d'une Action Gratuite.</Description>
+    <Requirements/>
+  </KataDef>
+</L5RCM>

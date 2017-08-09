@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <Clan name="Blaireau" id="badger"/>
+  <Clan name="Chauve-souris" id="bat"/>
+  <Clan name="Sanglier" id="boar"/>
+  <Clan name="Crabe" id="crab"/>
+  <Clan name="Grue" id="crane"/>
+  <Clan name="Dragon" id="dragon"/>
+  <Clan name="Libellule" id="dragonfly"/>
+  <Clan name="Faucon" id="falcon"/>
+  <Clan name="Renard" id="fox"/>
+  <Clan name="Lièvre" id="hare"/>
+  <Clan name="Imperial" id="imperial"/>
+  <Clan name="Lion" id="lion"/>
+  <Clan name="Mante" id="mantis"/>
+  <Clan name="Singe" id="monkey"/>
+  <Clan name="Moines" id="monks"/>
+  <Clan name="Loriot" id="oriole"/>
+  <Clan name="Bœuf" id="ox"/>
+  <Clan name="Phénix" id="phoenix"/>
+  <Clan name="Ronin" id="ronin"/>
+  <Clan name="Scorpion" id="scorpion"/>
+  <Clan name="Serpent" id="snake"/>
+  <Clan name="Moineau" id="sparrow"/>
+  <Clan name="Araignée" id="spider"/>
+  <Clan name="Tigre" id="tiger"/>
+  <Clan name="Tortue" id="tortoise"/>
+  <Clan name="Licorne" id="unicorn"/>
+</L5RCM>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <SkillCateg id="bugei">Bugei</SkillCateg>
+  <SkillCateg id="high">Noble</SkillCateg>
+  <SkillCateg id="low">Dégradante</SkillCateg>
+  <SkillCateg id="merchant">Marchand</SkillCateg>
+</L5RCM>

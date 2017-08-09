@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <PerkCateg id="material">Matériel</PerkCateg>
+  <PerkCateg id="mental">Mental</PerkCateg>
+  <PerkCateg id="physical">Physique</PerkCateg>
+  <PerkCateg id="social">Social</PerkCateg>
+  <PerkCateg id="spiritual">Spirituel</PerkCateg>
+  <PerkCateg id="varies">Variable</PerkCateg>
+</L5RCM>

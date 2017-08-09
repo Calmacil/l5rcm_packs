@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <Merit type="material" id="gaijin_gear" name="Objet Gaijin">
+    <Rank id="1" value="5">
+      <Exception tag="mantis" value="4"/>
+      <Exception tag="unicorn" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="material" id="gentry" name="Gouverneur">
+    <Rank id="1" value="0"/>
+  </Merit>
+  <Merit type="material" id="inheritance" name="Héritage">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="material" id="sacred_weapon_akodo_blade" rule="akodo_blade" name="Arme Sacrée (Lame Akodo)">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="material" id="sacred_weapon_black_steel_blade" rule="black_steel_blade" name="Arme Sacrée (Lame d'Acier Noir)">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="material" id="sacred_weapon_inquisitors_strike" rule="inquisitor_strike" name="Arme Sacrée (Frappe de l'Inquisiteur)">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="material" id="sacred_weapon_kaiu_blade" rule="kaiu_blade" name="Arme Sacrée (Lame Kaiu)">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="material" id="sacred_weapon_kakita_blade" rule="kakita_blade" name="Arme Sacrée (Lame Kakita)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="material" id="sacred_weapon_moto_scimitar" rule="moto_scimitar" name="Arme Sacrée (Cimeterre Moto)">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="material" id="sacred_weapon_shosuro_blade" rule="shosuro_blade" name="Arme Sacrée (Lame Shosuro)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="material" id="sacred_weapon_storm_kama_x2" rule="storm_kama" name="Arme Sacrée (Kama des Tempêtes x2)">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="material" id="sacred_weapon_twin_sister_blades" rule="twin_sister_blades" name="Arme Sacrée (Lames Jumelles)">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="material" id="servant" name="Serviteur">
+    <Rank id="1" value="0"/>
+  </Merit>
+  <Merit type="material" id="wealthy" name="Riche">
+    <Rank id="1" value="1">
+      <Exception tag="crane" value="0"/>
+      <Exception tag="imperial" value="0"/>
+      <Exception tag="unicorn" value="0"/>
+    </Rank>
+    <Rank id="2" value="2">
+      <Exception tag="crane" value="1"/>
+      <Exception tag="imperial" value="1"/>
+      <Exception tag="unicorn" value="1"/>
+    </Rank>
+    <Rank id="3" value="3">
+      <Exception tag="crane" value="2"/>
+      <Exception tag="imperial" value="2"/>
+      <Exception tag="unicorn" value="2"/>
+    </Rank>
+    <Rank id="4" value="4">
+      <Exception tag="crane" value="3"/>
+      <Exception tag="imperial" value="3"/>
+      <Exception tag="unicorn" value="3"/>
+    </Rank>
+    <Rank id="5" value="5">
+      <Exception tag="crane" value="4"/>
+      <Exception tag="imperial" value="4"/>
+      <Exception tag="unicorn" value="4"/>
+    </Rank>
+    <Rank id="6" value="6">
+      <Exception tag="crane" value="5"/>
+      <Exception tag="imperial" value="5"/>
+      <Exception tag="unicorn" value="5"/>
+    </Rank>
+    <Rank id="7" value="7">
+      <Exception tag="crane" value="6"/>
+      <Exception tag="imperial" value="6"/>
+      <Exception tag="unicorn" value="6"/>
+    </Rank>
+    <Rank id="8" value="8">
+      <Exception tag="crane" value="7"/>
+      <Exception tag="imperial" value="7"/>
+      <Exception tag="unicorn" value="7"/>
+    </Rank>
+    <Rank id="9" value="9">
+      <Exception tag="crane" value="8"/>
+      <Exception tag="imperial" value="8"/>
+      <Exception tag="unicorn" value="8"/>
+    </Rank>
+    <Rank id="10" value="10">
+      <Exception tag="crane" value="9"/>
+      <Exception tag="imperial" value="9"/>
+      <Exception tag="unicorn" value="9"/>
+    </Rank>
+    <Rank id="11" value="11">
+      <Exception tag="crane" value="10"/>
+      <Exception tag="imperial" value="10"/>
+      <Exception tag="unicorn" value="10"/>
+    </Rank>
+    <Rank id="12" value="12">
+      <Exception tag="crane" value="11"/>
+      <Exception tag="imperial" value="11"/>
+      <Exception tag="unicorn" value="11"/>
+    </Rank>
+    <Rank id="13" value="13">
+      <Exception tag="crane" value="12"/>
+      <Exception tag="imperial" value="12"/>
+      <Exception tag="unicorn" value="12"/>
+    </Rank>
+    <Rank id="14" value="14">
+      <Exception tag="crane" value="13"/>
+      <Exception tag="imperial" value="13"/>
+      <Exception tag="unicorn" value="13"/>
+    </Rank>
+    <Rank id="15" value="15">
+      <Exception tag="crane" value="14"/>
+      <Exception tag="imperial" value="14"/>
+      <Exception tag="unicorn" value="14"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="absolute_direction" name="Sens de l'Orientation">
+    <Rank id="1" value="1"/>
+  </Merit>
+  <Merit type="mental" id="balance" name="Calme">
+    <Rank id="1" value="2"/>
+  </Merit>
+  <Merit type="mental" id="clear_thinker" name="Clairvoyant">
+    <Rank id="1" value="3">
+      <Exception tag="dragon" value="2"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="crafty" name="Ingénieux">
+    <Rank id="1" value="3">
+      <Exception tag="ninja" value="2"/>
+      <Exception tag="scorpion" value="2"/>
+      <Exception tag="spider" value="2"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="daredevil" name="Risque-tout">
+    <Rank id="1" value="3">
+      <Exception tag="mantis" value="2"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="dark_paragon_control" name="Sombre Parangon (Controle)">
+    <Rank id="1" value="5">
+      <Exception tag="spider" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="dark_paragon_determination" name="Sombre Parangon (Détermination)">
+    <Rank id="1" value="5">
+      <Exception tag="spider" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="dark_paragon_insight" name="Sombre Parangon (Compréhension)">
+    <Rank id="1" value="5">
+      <Exception tag="spider" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="dark_paragon_knowledge" name="Sombre Parangon (Savoir)">
+    <Rank id="1" value="5">
+      <Exception tag="spider" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="dark_paragon_perfection" name="Sombre Parangon (Perfection)">
+    <Rank id="1" value="5">
+      <Exception tag="spider" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="dark_paragon_strength" name="Sombre Parangon (Force)">
+    <Rank id="1" value="5">
+      <Exception tag="spider" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="dark_paragon_will" name="Sombre Parangon (Volonté)">
+    <Rank id="1" value="5">
+      <Exception tag="spider" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="forbidden_knowledge_gaijin_pepper" rule="fk_gaijin_pepper" name="Savoir Interdit (Poivre Gaijin)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="mental" id="forbidden_knowledge_gozoku" rule="fk_gozoku" name="Savoir Interdit (Gozoku)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="mental" id="forbidden_knowledge_kolat" rule="fk_kolat" name="Savoir Interdit (Kolat)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="mental" id="forbidden_knowledge_lying_darkness" rule="fk_lying_darkness" name="Savoir Interdit (Ombre Rampante)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="mental" id="forbidden_knowledge_maho" rule="fk_maho" name="Savoir Interdit (Maho)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="mental" id="higher_purpose" name="Dessein Supérieur">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="mental" id="irreproachable" name="Intègre">
+    <Rank id="1" value="2">
+      <Exception tag="imperial" value="1"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="languages" name="Langue">
+    <Rank id="1" value="1"/>
+    <Rank id="2" value="3"/>
+  </Merit>
+  <Merit type="mental" id="paragon_compassion" name="Parangon (Compassion)">
+    <Rank id="1" value="7">
+      <Exception tag="lion" value="6"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="paragon_courage" name="Parangon (Courage)">
+    <Rank id="1" value="7">
+      <Exception tag="lion" value="6"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="paragon_courtesy" name="Parangon (Courtoisie)">
+    <Rank id="1" value="7">
+      <Exception tag="lion" value="6"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="paragon_duty" name="Parangon (Devoir)">
+    <Rank id="1" value="7">
+      <Exception tag="lion" value="6"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="paragon_honesty" name="Parangon (Honnêteté)">
+    <Rank id="1" value="7">
+      <Exception tag="lion" value="6"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="paragon_honor" name="Parangon (Honneur)">
+    <Rank id="1" value="7">
+      <Exception tag="lion" value="6"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="paragon_sincerity" name="Parangon (Sincérité)">
+    <Rank id="1" value="7">
+      <Exception tag="lion" value="6"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="precise_memory" name="Excellente Mémoire">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="mental" id="read_lips" name="Lire sur les Lèvres">
+    <Rank id="1" value="4">
+      <Exception tag="courtier" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="sage" name="Sage">
+    <Rank id="1" value="4">
+      <Exception tag="phoenix" value="3"/>
+      <Exception tag="shugenja" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="soul_of_artistry_artisan" name="Âme d'Artiste (Art)">
+    <Rank id="1" value="4">
+      <Exception tag="courtier" value="3"/>
+      <Exception tag="crane" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="soul_of_artistry_craft" name="Âme d'Artiste (Artisanat)">
+    <Rank id="1" value="4">
+      <Exception tag="courtier" value="3"/>
+      <Exception tag="crane" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="tactician" name="Tacticien">
+    <Rank id="1" value="4">
+      <Exception tag="bushi" value="3"/>
+      <Exception tag="lion" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="mental" id="virtuous" rule="virtuous" name="Vertueux">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="mental" id="wary" name="Vigilant">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="mental" id="way_of_the_land" name="Grand Voyageur">
+    <Rank id="1" value="2">
+      <Exception tag="unicorn" value="1"/>
+    </Rank>
+  </Merit>
+  <Merit type="physical" id="bland" name="Quelconque">
+    <Rank id="1" value="2"/>
+  </Merit>
+  <Merit type="physical" id="crab_hands" name="Dextérité du Crabe">
+    <Rank id="1" value="3">
+      <Exception tag="bushi" value="2"/>
+      <Exception tag="crab" value="2"/>
+    </Rank>
+  </Merit>
+  <Merit type="physical" id="dangerous_beauty" name="Beauté du Diable">
+    <Rank id="1" value="3">
+      <Exception tag="scorpion" value="2"/>
+    </Rank>
+  </Merit>
+  <Merit type="physical" id="hands_of_stone" name="Poings de Pierre">
+    <Rank id="1" value="6">
+      <Exception tag="monk" value="5"/>
+    </Rank>
+  </Merit>
+  <Merit type="physical" id="large" rule="large" name="Grand">
+    <Rank id="1" value="4">
+      <Exception tag="crab" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="physical" id="prodigy" rule="prodigy" name="Virtuose">
+    <Rank id="1" value="12"/>
+  </Merit>
+  <Merit type="physical" id="quick" name="Rapide">
+    <Rank id="1" value="6">
+      <Exception tag="ninja" value="5"/>
+    </Rank>
+  </Merit>
+  <Merit type="physical" id="quick_healer" name="Rétablissement Rapide">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="physical" id="silent" name="Silencieux">
+    <Rank id="1" value="3">
+      <Exception tag="ninja" value="2"/>
+    </Rank>
+  </Merit>
+  <Merit type="physical" id="strength_of_the_earth" rule="strength_of_earth" name="Force de la Terre">
+    <Rank id="1" value="3">
+      <Exception tag="bushi" value="2"/>
+    </Rank>
+  </Merit>
+  <Merit type="physical" id="voice" name="Voix Mélodieuse">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="social" id="allies" name="Alliés">
+    <Rank id="1" value="0">
+      <Exception tag="crane" value="-1"/>
+    </Rank>
+  </Merit>
+  <Merit type="social" id="blackmail" name="Chantage">
+    <Rank id="1" value="1">
+      <Exception tag="scorpion" value="0"/>
+    </Rank>
+    <Rank id="2" value="2">
+      <Exception tag="scorpion" value="1"/>
+    </Rank>
+    <Rank id="3" value="3">
+      <Exception tag="scorpion" value="2"/>
+    </Rank>
+    <Rank id="4" value="4">
+      <Exception tag="scorpion" value="3"/>
+    </Rank>
+    <Rank id="5" value="5">
+      <Exception tag="scorpion" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="social" id="blissful_betrothal" name="Heureuses Fiançailles">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="social" id="darling_of_the_court" name="Favori de la Cour">
+    <Rank id="1" value="2">
+      <Exception tag="courtier" value="1"/>
+    </Rank>
+  </Merit>
+  <Merit type="social" id="different_school" rule="different_school" name="École Différente">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="social" id="fame" rule="fame" name="Renommée">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="social" id="heart_of_vengeance" name="La Haine au Cœur">
+    <Rank id="1" value="5">
+      <Exception tag="spider" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="social" id="hero_of_the_people" name="Héros du Peuple">
+    <Rank id="1" value="2"/>
+  </Merit>
+  <Merit type="social" id="imperial_spouse" rule="imperial_spouse" name="Alliance Impériale">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="social" id="leadership" name="Leader Né">
+    <Rank id="1" value="6">
+      <Exception tag="lion" value="5"/>
+    </Rank>
+  </Merit>
+  <Merit type="social" id="multiple_schools" rule="multiple_schools" name="Écoles Multiples">
+    <Rank id="1" value="10"/>
+  </Merit>
+  <Merit type="social" id="perceived_honor" name="Honneur Apparent">
+    <Rank id="1" value="2"/>
+    <Rank id="2" value="4"/>
+    <Rank id="3" value="6"/>
+    <Rank id="4" value="8"/>
+    <Rank id="5" value="10"/>
+    <Rank id="6" value="12"/>
+    <Rank id="7" value="14"/>
+    <Rank id="8" value="16"/>
+    <Rank id="9" value="18"/>
+  </Merit>
+  <Merit type="social" id="sacrosanct" name="Sacrosaint">
+    <Rank id="1" value="4">
+      <Exception tag="imperial" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="social" id="sensation" name="Vedette">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="social" id="social_position" rule="social_position" name="Statut Social">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="spiritual" id="bentens_blessing" name="Bénédiction de Benten">
+    <Rank id="1" value="4">
+      <Exception tag="crane" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="bishamons_blessing" name="Bénédiction de Bishamon">
+    <Rank id="1" value="5">
+      <Exception tag="crab" value="4"/>
+      <Exception tag="lion" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="blood_of_osanowo" name="Sang d'Osano-Wo">
+    <Rank id="1" value="4">
+      <Exception tag="crab" value="3"/>
+      <Exception tag="mantis" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="chosen_by_the_oracles_air_" name="Choisi par les Oracles ( Air )">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="spiritual" id="chosen_by_the_oracles_earth_" name="Choisi par les Oracles ( Earth )">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="spiritual" id="chosen_by_the_oracles_fire_" name="Choisi par les Oracles ( Fire )">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="spiritual" id="chosen_by_the_oracles_void_" name="Choisi par les Oracles ( Void )">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="spiritual" id="chosen_by_the_oracles_water_" name="Choisi par les Oracles ( Water )">
+    <Rank id="1" value="6"/>
+  </Merit>
+  <Merit type="spiritual" id="daikokus_blessing" name="Bénédiction de Daikoku">
+    <Rank id="1" value="4">
+      <Exception tag="mantis" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="ebisus_blessing" name="Bénédiction d'Ebisu">
+    <Rank id="1" value="4">
+      <Exception tag="unicorn" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="elemental_blessing_air" rule="elem_bless_air" name="Faveur Élémentaire (Air)">
+    <Rank id="1" value="4">
+      <Exception tag="phoenix" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="elemental_blessing_earth" rule="elem_bless_earth" name="Faveur Élémentaire (Earth)">
+    <Rank id="1" value="4">
+      <Exception tag="phoenix" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="elemental_blessing_fire" rule="elem_bless_fire" name="Faveur Élémentaire (Fire)">
+    <Rank id="1" value="4">
+      <Exception tag="phoenix" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="elemental_blessing_water" rule="elem_bless_water" name="Faveur Élémentaire (Water)">
+    <Rank id="1" value="4">
+      <Exception tag="phoenix" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="enlightened" rule="enlightened" name="Illumination">
+    <Rank id="1" value="6">
+      <Exception tag="dragon" value="5"/>
+      <Exception tag="monk" value="5"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="friend_of_the_brotherhood" rule="friend_brotherhood" name="Ami de la Confrérie">
+    <Rank id="1" value="5">
+      <Exception tag="dragon" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="friend_of_the_elements_air" name="Ami des Éléments (Air)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="friend_of_the_elements_earth" name="Ami des Éléments (Earth)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="friend_of_the_elements_fire" name="Ami des Éléments (Fire)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="friend_of_the_elements_void" name="Ami des Éléments (Void)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="friend_of_the_elements_water" name="Ami des Éléments (Water)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="friendly_kami_air" name="Kami Amical (Air)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="spiritual" id="friendly_kami_earth" name="Kami Amical (Earth)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="spiritual" id="friendly_kami_fire" name="Kami Amical (Fire)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="spiritual" id="friendly_kami_void" name="Kami Amical (Void)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="spiritual" id="friendly_kami_water" name="Kami Amical (Water)">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="spiritual" id="fukurokujins_blessing" name="Bénédiction de Fukurokujin">
+    <Rank id="1" value="4">
+      <Exception tag="dragon" value="3"/>
+      <Exception tag="phoenix" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="great_destiny" name="Grande Destinée">
+    <Rank id="1" value="5"/>
+  </Merit>
+  <Merit type="spiritual" id="hoteis_blessing" name="Bénédiction de Hotei">
+    <Rank id="1" value="4">
+      <Exception tag="dragon" value="3"/>
+      <Exception tag="phoenix" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="inaris_blessing" name="Bénédiction d'Inari">
+    <Rank id="1" value="3"/>
+  </Merit>
+  <Merit type="spiritual" id="inner_gift" name="Don Inné">
+    <Rank id="1" value="7"/>
+  </Merit>
+  <Merit type="spiritual" id="ishikendo" name="Ishiken-do">
+    <Rank id="1" value="8">
+      <Exception tag="phoenix" value="6"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="jurojins_blessing" name="Bénédiction de Jurojin">
+    <Rank id="1" value="4">
+      <Exception tag="scorpion" value="3"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="kharmic_tie_1" name="Lien Karmique">
+    <Rank id="1" value="1"/>
+    <Rank id="2" value="2"/>
+    <Rank id="3" value="3"/>
+    <Rank id="4" value="4"/>
+    <Rank id="5" value="5"/>
+  </Merit>
+  <Merit type="spiritual" id="luck" name="Chanceux">
+    <Rank id="1" value="3"/>
+    <Rank id="2" value="6"/>
+    <Rank id="3" value="9"/>
+  </Merit>
+  <Merit type="spiritual" id="magic_resistance" name="Résistance Magique">
+    <Rank id="1" value="2"/>
+    <Rank id="2" value="4"/>
+    <Rank id="3" value="6"/>
+  </Merit>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_chikushudo" name="Caresse des Royaumes Spirituels (Chikushudo)">
+    <Rank id="1" value="5">
+      <Exception tag="shugenja" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_gakido" name="Caresse des Royaumes Spirituels (Gaki-do)">
+    <Rank id="1" value="5">
+      <Exception tag="shugenja" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_jigoku" name="Caresse des Royaumes Spirituels (Jigoku)">
+    <Rank id="1" value="5">
+      <Exception tag="shugenja" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_maigo_no_musha" name="Caresse des Royaumes Spirituels (Maigo no Musha)">
+    <Rank id="1" value="5">
+      <Exception tag="shugenja" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_meido" name="Caresse des Royaumes Spirituels (Meido)">
+    <Rank id="1" value="5">
+      <Exception tag="shugenja" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_sakkaku" name="Caresse des Royaumes Spirituels (Sakkaku)">
+    <Rank id="1" value="5">
+      <Exception tag="shugenja" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_tengoku" name="Caresse des Royaumes Spirituels (Tengoku)">
+    <Rank id="1" value="5">
+      <Exception tag="shugenja" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_toshigoku" name="Caresse des Royaumes Spirituels (Toshigoku)">
+    <Rank id="1" value="5">
+      <Exception tag="shugenja" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_yomi" name="Caresse des Royaumes Spirituels (Yomi)">
+    <Rank id="1" value="7">
+      <Exception tag="shugenja" value="6"/>
+    </Rank>
+  </Merit>
+  <Merit type="spiritual" id="touch_of_the_spirit_realms_yumedo" name="Caresse des Royaumes Spirituels (Yume-do)">
+    <Rank id="1" value="5">
+      <Exception tag="shugenja" value="4"/>
+    </Rank>
+  </Merit>
+  <Merit type="varies" id="great_potential" name="Jeune Prodige">
+    <Rank id="1" value="5"/>
+  </Merit>
+</L5RCM>

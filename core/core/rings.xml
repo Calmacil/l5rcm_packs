@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <RingDef id="air">Air</RingDef>
+  <RingDef id="earth">Terre</RingDef>
+  <RingDef id="fire">Feu</RingDef>
+  <RingDef id="water">Eau</RingDef>
+  <RingDef id="void">Vide</RingDef>
+  <RingDef id="all">Universel</RingDef>
+  <TraitDef id="reflexes">Réflexes</TraitDef>
+  <TraitDef id="awareness">Intuition</TraitDef>
+  <TraitDef id="stamina">Constitution</TraitDef>
+  <TraitDef id="willpower">Volonté</TraitDef>
+  <TraitDef id="agility">Agilité</TraitDef>
+  <TraitDef id="intelligence">Intelligence</TraitDef>
+  <TraitDef id="strength">Force</TraitDef>
+  <TraitDef id="perception">Perception</TraitDef>
+</L5RCM>

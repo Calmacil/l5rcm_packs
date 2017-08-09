@@ -1,0 +1,10 @@
+{
+	"id": "core",
+	"display_name": "Core book",
+	"language": "fr_FR",
+	"authors": ["Daniele Simonetti"],
+	"version": "4.6",
+	"update-uri": "",
+	"download-uri": "",
+	"min-cm-version": "3.9.5"
+}

@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <SkillDef trait="strength" type="bugei" id="athletics" name="Athlétisme">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Pas de malus de déplacements sur les Terrains Médiocres et les Terrains Difficiles ne réduisent l'Anneau d'Eau que de 1.</MasteryAbility>
+      <MasteryAbility rank="5">Pas de malus de déplacements.</MasteryAbility>
+      <MasteryAbility rank="7">+1,5m au total d'une Action de Mouvement par Round.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="perception" type="bugei" id="battle" name="Art de la Guerre">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rule="ma_battle_5" rank="5">Ajouter le rang d'Art de la Guerre à l'Initiative</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="reflexes" type="bugei" id="defense" name="Défense">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">En posture d'Esquive, conservez le résultat de Défense/Réflexes pour les Rounds suivants.</MasteryAbility>
+      <MasteryAbility rank="5">+3 au ND d'Armure en postures de Défense et d'Esquive.</MasteryAbility>
+      <MasteryAbility rank="7">Une Action Simple (pas d'Attaque) peut être effectuée en posture d'Esquive.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="bugei" id="horsemanship" name="Équitation">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Peut utiliser la Posture d'Assaut à cheval.</MasteryAbility>
+      <MasteryAbility rank="5">Monter à cheval est une Action Simple, démonter est une Action Libre.</MasteryAbility>
+      <MasteryAbility rank="7">Monter à cheval est une Action Libre.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="perception" type="bugei" id="hunting" name="Chasse">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">+1g0 à tous les jets de Discrétion en environnement sauvage.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="reflexes" type="bugei" id="iaijutsu" name="Iaijutsu">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Apprêter son Katana est une Action Libre.</MasteryAbility>
+      <MasteryAbility rank="5">Gain d'une Augmentation Gratuite à l'étape de Concentration d'un duel.</MasteryAbility>
+      <MasteryAbility rank="7">+2g2 au total de tous les jets de Concentration si le jet d'Évaluation dépasse celui de l'adversaire de 10+.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="bugei" id="jiujutsu" name="Jiujutsu">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">+1g0 aux dommages de toutes les attaques à mains nues.</MasteryAbility>
+      <MasteryAbility rank="5">Augmentation Gratuite pour initier une Empoignade.</MasteryAbility>
+      <MasteryAbility rank="7">+0g1 aux dommages de toutes les attaques à mains nues.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="bugei" id="chain_weapons" name="Armes à Chaînes">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Peut utiliser une Arme à Chaînes pour initier une Empoignade.</MasteryAbility>
+      <MasteryAbility rank="5">+1g0 aux jets d'Opposition contre un adversaire Empoigné.</MasteryAbility>
+      <MasteryAbility rank="7">Augmentation Gratuite pour utiliser les manœuvres Désarmement et Assommer.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="bugei" id="heavy_weapons" name="Armes Lourdes">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Diminuez de 2 la Réduction de l'adversaire.</MasteryAbility>
+      <MasteryAbility rank="5">Augmentation Gratuite pour utiliser la manœuvre Assommer.</MasteryAbility>
+      <MasteryAbility rank="7">Les dés de dommages explosent sur 9 ou 10.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="bugei" id="kenjutsu" name="Kenjutsu">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rule="ma_kenjutsu_3" rank="3">+1g0 à tous les dommages effectués avec une épée.</MasteryAbility>
+      <MasteryAbility rank="5">Apprêter une épée est une Action Gratuite.</MasteryAbility>
+      <MasteryAbility rank="7">Les dés de dommages explosent sur 9 ou 10.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="bugei" id="knives" name="Couteaux">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Pas de malus de main non-directrice avec un couteau.</MasteryAbility>
+      <MasteryAbility rank="5">Utiliser un Sai ou un Jitte confère une Augmentation Gratuite pour utiliser la manœuvre Désarmer.</MasteryAbility>
+      <MasteryAbility rank="7">Augmentation Gratuite pour utiliser la manœuvre Attaque Supplémentaire.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="reflexes" type="bugei" id="kyujutsu" name="Kyujutsu">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Encorder un arc est une Action Simple.</MasteryAbility>
+      <MasteryAbility rule="ma_kyujutsu_5" rank="5">Augmentez la portée maximum de 50%.</MasteryAbility>
+      <MasteryAbility rule="ma_kyujutsu_7" rank="7">Augmentez la Force de tout arc de 1.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="bugei" id="polearms" name="Armes d'Hast">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">+5 à l'Initiative au premier Round d'une Escarmouche.</MasteryAbility>
+      <MasteryAbility rank="5">+1g0 aux dommages avec les armes d'Hast contre des adversaires montés ou plus grands.</MasteryAbility>
+      <MasteryAbility rank="7">Apprêter une Arme d'Hast est une Action Gratuite.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="bugei" id="spears" name="Lances">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Ignorez 3 points de Réduction lors du premier Round d'une escarmouche.</MasteryAbility>
+      <MasteryAbility rank="5">Augmentez la portée des attaques de 1,5m.</MasteryAbility>
+      <MasteryAbility rank="7">Apprêter une Lance est une Action Gratuite.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="bugei" id="staves" name="Bâtons">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Ne doublez pas les bonus d'armure de l'adversaire en utilisant un bâton.</MasteryAbility>
+      <MasteryAbility rank="5">Augmentation Gratuite pour la manœuvre Assommer.</MasteryAbility>
+      <MasteryAbility rank="7">Les grands bâtons peuvent être apprêtés pour une Action Gratuite, les petits gagnent +1g0 aux jets de dommages.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="bugei" id="war_fan" name="Éventails de Guerre">
+    <Tags>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Pas de malus de main non-directrice avec un Éventail de Guerre.</MasteryAbility>
+      <MasteryAbility rank="5">Bonus de 1 au ND d'Armure.</MasteryAbility>
+      <MasteryAbility rank="7">Bonus de 3 au ND d'Armure.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="acting" name="Comédie">
+    <Tags>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Le ND pour créer un déguisement est réduit de 5.</MasteryAbility>
+      <MasteryAbility rank="5">Le ND pour créer un déguisement est réduit de 10 (total).</MasteryAbility>
+      <MasteryAbility rank="7">Le ND pour créer un déguisement est réduit de 15 (total).</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="artisan_bonsai" name="Art (Bonsai)">
+    <Tags>
+      <Tag>artisan</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="artisan_gardening" name="Art (Gardening)">
+    <Tags>
+      <Tag>artisan</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="artisan_ikebana" name="Art (Ikebana)">
+    <Tags>
+      <Tag>artisan</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="artisan_origami" name="Art (Origami)">
+    <Tags>
+      <Tag>artisan</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="artisan_painting" name="Art (Painting)">
+    <Tags>
+      <Tag>artisan</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="artisan_poetry" name="Art (Poetry)">
+    <Tags>
+      <Tag>artisan</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="artisan_sculpture" name="Art (Sculpture)">
+    <Tags>
+      <Tag>artisan</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="artisan_tattoing" name="Art (Tattoing)">
+    <Tags>
+      <Tag>artisan</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="calligraphy" name="Calligraphie">
+    <Tags>
+      <Tag>artisan</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">Bonus de +10 pour décrypter un code secret.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="courtier" name="Courtisan">
+    <Tags>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rule="ma_insight_plus_3" rank="3">+3 à la Réputation</MasteryAbility>
+      <MasteryAbility rank="5">+1g0 à tous les jets opposés de Courtisan</MasteryAbility>
+      <MasteryAbility rule="ma_insight_plus_7" rank="7">+7 à la Réputation (cumulatif avec le Rang 3)</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="divination" name="Divination">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">Un second jet de Divination devient possible sans dépenser de Points de Vides.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="etiquette" name="Étiquette">
+    <Tags>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rule="ma_insight_plus_3" rank="3">+3 à la Réputation</MasteryAbility>
+      <MasteryAbility rank="5">+1g0 à tous les jets opposés d'Étiquette</MasteryAbility>
+      <MasteryAbility rule="ma_insight_plus_7" rank="7">+7 à la Réputation (cumulatif avec le Rang 3)</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="games_fortunes_winds" name="Jeux (Fortunes et Vents)">
+    <Tags>
+      <Tag>games</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="games_go" name="Jeu (Go)">
+    <Tags>
+      <Tag>games</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="agility" type="high" id="games_kemari" name="Jeu (Kemari)">
+    <Tags>
+      <Tag>games</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="games_letters" name="Jeu (Missives)">
+    <Tags>
+      <Tag>games</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="games_sadane" name="Jeu (Sadane)">
+    <Tags>
+      <Tag>games</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="games_shogi" name="Jeu (Shogi)">
+    <Tags>
+      <Tag>games</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="perception" type="high" id="investigation" name="Enquête">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Un second jet avec la spécialité Fouille peut être fait sans augmentation du ND.</MasteryAbility>
+      <MasteryAbility rank="5">+5 au total de tout jet opposé d'Enquête.</MasteryAbility>
+      <MasteryAbility rank="7">Un troisième jet avec la spécialité Fouille peut être fait si le deuxième échoue.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_architecture" name="Savoir (Architecture)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_bushido" name="Savoir (Bushido)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_crab" name="Savoir (Crabe)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_crane" name="Savoir (Grue)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_dragon" name="Savoir (Dragon)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_scorpion" name="Savoir (Scorpion)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_phoenix" name="Savoir (Phénix)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_unicorn" name="Savoir (Licorne)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_lion" name="Savoir (Lion)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_mantis" name="Savoir (Mante)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_elements" name="Savoir (Éléments)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_gaijin_culture" name="Savoir (Cultures Gaijin)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_ghosts" name="Savoir (Fantômes)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_heraldry" name="Savoir (Héraldique)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_history" name="Savoir (Histoire)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_nature" name="Savoir (Nature)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_nonhuman_culture" name="Savoir (Cultures Non-humaines)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_omens" name="Savoir (Prophéties)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_shugenja" name="Savoir (Shugenja)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_spirit_realms" name="Savoir (Royaumes Spirituels)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_theology" name="Savoir (Théologie)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_war" name="Savoir (Guerre)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_the_sea" name="Savoir (La Mer)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="lore_law" name="Savoir (Loi)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="medicine" name="Médecine">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">+1k0 to the amount of healed Wounds.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="void" type="high" id="meditation" name="Méditation">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Restore up to 2 Void Points</MasteryAbility>
+      <MasteryAbility rank="5">Fasting emphasis TN is reduced by 5.</MasteryAbility>
+      <MasteryAbility rank="7">Restore up to 3 Void Points</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="high" id="perform_biwa" name="Spectacle (Biwa)">
+    <Tags>
+      <Tag>perform</Tag>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="agility" type="high" id="perform_dance" name="Spectacle (Danse)">
+    <Tags>
+      <Tag>perform</Tag>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="agility" type="high" id="perform_drums" name="Spectacle (Tambours)">
+    <Tags>
+      <Tag>perform</Tag>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="agility" type="high" id="perform_flute" name="Spectacle (Flute)">
+    <Tags>
+      <Tag>perform</Tag>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="perform_oratory" name="Spectacle (Éloquence)">
+    <Tags>
+      <Tag>perform</Tag>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="agility" type="high" id="perform_puppeteer" name="Spectacle (Marionnettes)">
+    <Tags>
+      <Tag>perform</Tag>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="agility" type="high" id="perform_samisen" name="Spectacle (Shamisen)">
+    <Tags>
+      <Tag>perform</Tag>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="perform_song" name="Spectacle (Chant)">
+    <Tags>
+      <Tag>perform</Tag>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="perform_storytelling" name="Spectacle (Art du Conteur)">
+    <Tags>
+      <Tag>perform</Tag>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="awareness" type="high" id="sincerity" name="Sincérité">
+    <Tags>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">+5 à tous les jets opposés de Sincérité.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="high" id="spellcraft" name="Art de la Magie">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">+1g0 aux jets d'Incantation.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="void" type="high" id="tea_ceremony" name="Cérémonie du Thé">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">Les participants gagnent 2 points de Vide au lieu d'1.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="varies" type="high" id="craft_armorsmithing" name="Artisanat (Fabrication d'armures)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="high" id="craft_bowyer" name="Artisanat (Archerie)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="high" id="craft_weaponsmithing" name="Artisanat (Fabrication d'armes)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="low" id="lore_anatomy" name="Savoir (Anatomie)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="low" id="lore_maho" name="Savoir (Maho)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="low" id="lore_kolat" name="Savoir (Kolat)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="low" id="lore_gozoku" name="Savoir (Gozoku)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="low" id="lore_lying_darkness" name="Savoir (Ombre Rampante)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="low" id="lore_shadowlands" name="Savoir (Outremonde)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="low" id="lore_underworld" name="Lore (Pègre)">
+    <Tags>
+      <Tag>lore</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="agility" type="low" id="ninjutsu" name="Ninjutsu">
+    <Tags>
+      <Tag>reflexes</Tag>
+      <Tag>weapon</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rule="ma_ninjutsu_3" rank="3">+1g0 aux dommages des armes de Ninjutsu.</MasteryAbility>
+      <MasteryAbility rank="5">Les jets de dommages explosent normalement.</MasteryAbility>
+      <MasteryAbility rule="ma_ninjutsu_7" rank="7">+0g1 aux dommages des armes de Ninjutsu.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="varies" type="low" id="craft_poison" name="Artisanat (Poison)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="low" id="craft_explosives" name="Artisanat (Explosifs)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="agility" type="low" id="forgery" name="Falsification">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">+1g0 aux jets de Falsification vs les jets d'Enquête/Perception pour détecter.</MasteryAbility>
+      <MasteryAbility rank="5">+1g0 à tout jet visant à détecter une falsification commise par un autre.</MasteryAbility>
+      <MasteryAbility rank="7">+0g1 aux jets de Falsification vs les jets d'Enquête/Perception pour détecter.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="awareness" type="low" id="intimidation" name="Intimidation">
+    <Tags>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">+5 aux jets opposés d'Intimidation.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="low" id="sleight_of_hand" name="Passe-passe">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">Peut utiliser la spécialité Dissimulation pour dissimuler de petites armes.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="low" id="stealth" name="Discrétion">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Les Actions de Mouvement Simples sous Discrétions permettent un déplacement de Eau x 1,5m.</MasteryAbility>
+      <MasteryAbility rank="5">Les Actions de Mouvement Simples sous Discrétions permettent un déplacement de Eau x 3m.</MasteryAbility>
+      <MasteryAbility rank="7">Discrétion fonctionne avec les Actions de Mouvement Gratuites.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="awareness" type="low" id="temptation" name="Tentation">
+    <Tags>
+      <Tag>social</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">+5 aux jets opposés de Tentation.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="awareness" type="merchant" id="animal_handling" name="Élevage">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="3">Les animaux domestiques peuvent être éduqués pour l'usage par les autres.</MasteryAbility>
+      <MasteryAbility rank="5">Peut ordonner à un animal d'attaquer.</MasteryAbility>
+      <MasteryAbility rank="7">Peut diriger un animal par gestes.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="merchant" id="commerce" name="Commerce">
+    <Tags/>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">Peut modifier le prix d'un produit de 20%.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_blacksmithing" name="Artisanat (Forge)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_brewing" name="Artisanat (Brasserie)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_carpentry" name="Artisanat (Charpenterie)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_cartography" name="Artisanat (Cartographie)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_cobbling" name="Artisanat (Bricolage)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_farming" name="Artisanat (Agriculture)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_fishing" name="Artisanat (Pêche)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_masonry" name="Artisanat (Maçonnerie)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_mining" name="Artisanat (Minage)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_pottery" name="Artisanat (Poterie)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_shipbuilding" name="Artisanat (Construction de navires)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_tailoring" name="Artisanat (Couture)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_tattooing" name="Artisanat (Tatouage)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="varies" type="merchant" id="craft_weaving" name="Artisanat (Tissage)">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities/>
+  </SkillDef>
+  <SkillDef trait="intelligence" type="merchant" id="engineering" name="Ingénierie">
+    <Tags>
+      <Tag>craft</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">+5 à tous les jets coopératifs ou cumulatifs d'Ingénierie.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+  <SkillDef trait="agility" type="merchant" id="sailing" name="Navigation">
+    <Tags>
+      <Tag>craft</Tag>
+      <Tag>intelligence</Tag>
+    </Tags>
+    <MasteryAbilities>
+      <MasteryAbility rank="5">+5 à tous les jets coopératifs ou cumulatifs de Navigation.</MasteryAbility>
+    </MasteryAbilities>
+  </SkillDef>
+</L5RCM>

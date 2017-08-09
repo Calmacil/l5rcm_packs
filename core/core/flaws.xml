@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<L5RCM>
+  <Flaw type="mental" id="ascetic" name="Ascète">
+    <Rank id="1" value="2">
+      <Exception tag="dragon" value="3"/>
+      <Exception tag="monk" value="3"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="brash" name="Impétueux">
+    <Rank id="1" value="3">
+      <Exception tag="lion" value="4"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="cant_lie" name="Incapable de mentir">
+    <Rank id="1" value="2"/>
+  </Flaw>
+  <Flaw type="mental" id="compulsion" name="Compulsion">
+    <Rank id="1" value="2"/>
+    <Rank id="2" value="3"/>
+    <Rank id="3" value="4"/>
+  </Flaw>
+  <Flaw type="mental" id="consumed_control" name="Rongé par le Shourido (Control)">
+    <Rank id="1" value="4">
+      <Exception tag="spider" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="consumed_determination" name="Rongé par le Shourido (Determination)">
+    <Rank id="1" value="6">
+      <Exception tag="spider" value="7"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="consumed_insight" name="Rongé par le Shourido (Insight)">
+    <Rank id="1" value="4">
+      <Exception tag="spider" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="consumed_knowledge" name="Rongé par le Shourido (Knowledge)">
+    <Rank id="1" value="4">
+      <Exception tag="spider" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="consumed_perfection" name="Rongé par le Shourido (Perfection)">
+    <Rank id="1" value="5">
+      <Exception tag="crane" value="6"/>
+      <Exception tag="spider" value="6"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="consumed_strength" name="Rongé par le Shourido (Strength)">
+    <Rank id="1" value="5">
+      <Exception tag="spider" value="6"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="consumed_will" name="Rongé par le Shourido (Will)">
+    <Rank id="1" value="4">
+      <Exception tag="spider" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="contrary" name="Contrariant">
+    <Rank id="1" value="3">
+      <Exception tag="courtier" value="4"/>
+      <Exception tag="imperial" value="4"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="disbeliever" name="Incroyant">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="mental" id="doubt" name="Peu assuré">
+    <Rank id="1" value="4"/>
+  </Flaw>
+  <Flaw type="mental" id="driven" name="Obnubilé">
+    <Rank id="1" value="2"/>
+  </Flaw>
+  <Flaw type="mental" id="failure_of_bushido_compassion" name="Oublié du Bushido (Compassion)">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="mental" id="failure_of_bushido_courage" name="Oublié du Bushido (Courage)">
+    <Rank id="1" value="4"/>
+  </Flaw>
+  <Flaw type="mental" id="failure_of_bushido_courtesy" name="Oublié du Bushido (Courtoisie)">
+    <Rank id="1" value="4"/>
+  </Flaw>
+  <Flaw type="mental" id="failure_of_bushido_duty" name="Oublié du Bushido (Devoir)">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="mental" id="failure_of_bushido_honesty" name="Oublié du Bushido (Honnêteté)">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="mental" id="failure_of_bushido_honor" name="Oublié du Bushido (Honneur)">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="mental" id="failure_of_bushido_sincerity" name="Oublié du Bushido (Sincérité)">
+    <Rank id="1" value="4"/>
+  </Flaw>
+  <Flaw type="mental" id="fascination" name="Fascination">
+    <Rank id="1" value="1"/>
+  </Flaw>
+  <Flaw type="mental" id="frail_mind" name="Faiblesse de caractère">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="mental" id="greedy" name="Cupide">
+    <Rank id="1" value="3">
+      <Exception tag="mantis" value="4"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="gullible" name="Crédule">
+    <Rank id="1" value="4"/>
+  </Flaw>
+  <Flaw type="mental" id="idealistic" name="Idéaliste">
+    <Rank id="1" value="2">
+      <Exception tag="lion" value="3"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="insensitive" name="Insensible">
+    <Rank id="1" value="2">
+      <Exception tag="scorpion" value="3"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="jealousy" name="Jaloux">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="mental" id="lost_love" name="Chagrin d'amour">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="mental" id="obtuse" rule="obtuse" name="Obtus">
+    <Rank id="1" value="3">
+      <Exception tag="bushi" value="4"/>
+      <Exception tag="crab" value="4"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="overconfident" name="Présomptueux">
+    <Rank id="1" value="3">
+      <Exception tag="lion" value="4"/>
+      <Exception tag="mantis" value="4"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="phobia" name="Phobie">
+    <Rank id="1" value="1"/>
+    <Rank id="2" value="2"/>
+    <Rank id="3" value="3"/>
+  </Flaw>
+  <Flaw type="mental" id="softhearted" name="Cœur Tendre">
+    <Rank id="1" value="2">
+      <Exception tag="phoenix" value="3"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="mental" id="true_love" name="Amour Sincère">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="physical" id="bad_eyesight" rule="bad_eyesight" name="Mauvaise Vue">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="physical" id="bad_health" rule="bad_health" name="Fragile">
+    <Rank id="1" value="4"/>
+  </Flaw>
+  <Flaw type="physical" id="blind" rule="blind" name="Aveugle">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="physical" id="disturbing_countenance" name="Visage dérangeant">
+    <Rank id="1" value="3">
+      <Exception tag="spider" value="4"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="physical" id="epilepsy" name="Epileptique">
+    <Rank id="1" value="4">
+      <Exception tag="crane" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="physical" id="lame" name="Estropié">
+    <Rank id="1" value="4"/>
+  </Flaw>
+  <Flaw type="physical" id="low_pain_threshold" name="Douillet">
+    <Rank id="1" value="4"/>
+  </Flaw>
+  <Flaw type="physical" id="missing_limb" name="Amputé">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="physical" id="permanent_wound" name="Blessure Permanente">
+    <Rank id="1" value="4">
+      <Exception tag="bushi" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="physical" id="small" rule="small" name="Faible">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="physical" id="weakness_agility" rule="weak_agility" name="Faiblesse (Agilité)">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="physical" id="weakness_awareness" rule="weak_awareness" name="Faiblesse (Intuition)">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="physical" id="weakness_intelligence" rule="weak_intelligence" name="Faiblesse (Intelligence)">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="physical" id="weakness_perception" rule="weak_perception" name="Faiblesse (Perception)">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="physical" id="weakness_reflexes" rule="weak_reflexes" name="Faiblesse (Réflexes)">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="physical" id="weakness_stamina" rule="weak_stamina" name="Faiblesse (Constitution)">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="physical" id="weakness_strength" rule="weak_strength" name="Faiblesse (Force)">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="physical" id="weakness_willpower" rule="weak_willpower" name="Faiblesse (Volonté)">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="social" id="antisocial" name="Associal">
+    <Rank id="1" value="2">
+      <Exception tag="crab" value="3"/>
+    </Rank>
+    <Rank id="2" value="4">
+      <Exception tag="crab" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="social" id="bitter_betrothal" name="Amères Fiançailles">
+    <Rank id="1" value="2">
+      <Exception tag="imperial" value="3"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="social" id="black_sheep" name="Brebis Galeuse">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="social" id="blackmailed" name="Harcèlement">
+    <Rank id="1" value="0"/>
+  </Flaw>
+  <Flaw type="social" id="cast_out" name="Honni">
+    <Rank id="1" value="1"/>
+    <Rank id="2" value="3"/>
+  </Flaw>
+  <Flaw type="social" id="dark_secret" name="Sombre Secret">
+    <Rank id="1" value="4">
+      <Exception tag="ninja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="social" id="dependant" name="Lien de Dépendance">
+    <Rank id="1" value="0"/>
+  </Flaw>
+  <Flaw type="social" id="dishonored" name="Déshonnoré">
+    <Rank id="1" value="5"/>
+  </Flaw>
+  <Flaw type="social" id="forced_retirement" name="Retraite Forcée">
+    <Rank id="1" value="4">
+      <Exception tag="monk" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="social" id="gaijin_name" name="Nom Gaijin">
+    <Rank id="1" value="1">
+      <Exception tag="unicorn" value="2"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="social" id="hostage" name="Otage">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="social" id="infamous" name="Infâme">
+    <Rank id="1" value="2"/>
+  </Flaw>
+  <Flaw type="social" id="lechery" name="Joli-Cœur">
+    <Rank id="1" value="2"/>
+  </Flaw>
+  <Flaw type="social" id="obligation" name="Obligation">
+    <Rank id="1" value="3"/>
+    <Rank id="2" value="6"/>
+  </Flaw>
+  <Flaw type="social" id="rumormonger" name="Cancanier">
+    <Rank id="1" value="4">
+      <Exception tag="courtier" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="social" id="social_disadvantage" rule="social_disadvantage" name="Désavantage Social">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="social" id="sworn_enemy" name="Ennemi Juré">
+    <Rank id="1" value="3"/>
+    <Rank id="2" value="4"/>
+    <Rank id="3" value="5"/>
+    <Rank id="4" value="6"/>
+    <Rank id="5" value="7"/>
+    <Rank id="6" value="8"/>
+    <Rank id="7" value="9"/>
+    <Rank id="8" value="10"/>
+  </Flaw>
+  <Flaw type="social" id="sworn_enemy_kharmic" name="Ennemi Juré (Kharmic)">
+    <Rank id="1" value="5"/>
+    <Rank id="2" value="6"/>
+    <Rank id="3" value="7"/>
+    <Rank id="4" value="8"/>
+    <Rank id="5" value="9"/>
+    <Rank id="6" value="10"/>
+  </Flaw>
+  <Flaw type="spiritual" id="bad_fortune" name="Mauvaise Fortune">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="spiritual" id="bentens_curse" name="Malédiction de Benten">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="spiritual" id="bishamons_curse" rule="bishamon_curse" name="Malédiction de Bishamon">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="spiritual" id="cursed_by_the_realm_chikushudo" name="Maudit par le Royaume (Chikushudo)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="cursed_by_the_realm_gakido" name="Maudit par le Royaume (Gaki-do)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="cursed_by_the_realm_jigoku" name="Maudit par le Royaume (Jigoku)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="cursed_by_the_realm_maigo_no_musha" name="Maudit par le Royaume (Maigo no Musha)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="cursed_by_the_realm_meido" name="Maudit par le Royaume (Meido)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="cursed_by_the_realm_sakkaku" name="Maudit par le Royaume (Sakkaku)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="cursed_by_the_realm_tengoku" name="Maudit par le Royaume (Tengoku)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="cursed_by_the_realm_toshigoku" name="Maudit par le Royaume (Toshigoku)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="cursed_by_the_realm_yomi" name="Maudit par le Royaume (Yomi)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="cursed_by_the_realm_yumedo" name="Maudit par le Royaume (Yume-do)">
+    <Rank id="1" value="4">
+      <Exception tag="shugenja" value="5"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="daikokus_curse" name="Malédiction de Daikoku">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="spiritual" id="dark_fate" name="Sombre Destin">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="spiritual" id="ebisus_curse" name="Malédiction d'Ebisu">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="spiritual" id="elemental_imbalance" name="Déséquilibre Élémentaire">
+    <Rank id="1" value="2"/>
+    <Rank id="2" value="4"/>
+    <Rank id="3" value="6"/>
+    <Rank id="4" value="8"/>
+    <Rank id="5" value="10"/>
+  </Flaw>
+  <Flaw type="spiritual" id="fukurokujins_curse" name="Malédiction de Fukurokujin">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="spiritual" id="haunted" name="Possédé">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="spiritual" id="hoteis_curse" name="Malédiction de Hotei">
+    <Rank id="1" value="6"/>
+  </Flaw>
+  <Flaw type="spiritual" id="jurojins_curse" name="Malédiction de Jurojin">
+    <Rank id="1" value="3"/>
+  </Flaw>
+  <Flaw type="spiritual" id="lord_moons_curse" name="Malédiction du Seigneur Lune">
+    <Rank id="1" value="3"/>
+    <Rank id="2" value="5"/>
+    <Rank id="3" value="7"/>
+  </Flaw>
+  <Flaw type="spiritual" id="momoku" name="Momoku">
+    <Rank id="1" value="8"/>
+  </Flaw>
+  <Flaw type="spiritual" id="shadowlands_taint" rule="shadowland_taint" name="Souillure de l'Outremonde">
+    <Rank id="1" value="4"/>
+  </Flaw>
+  <Flaw type="spiritual" id="touch_of_the_void" name="Caresse du Vide">
+    <Rank id="1" value="3">
+      <Exception tag="phoenix" value="4"/>
+    </Rank>
+  </Flaw>
+  <Flaw type="spiritual" id="unlucky" name="Malchanceux">
+    <Rank id="1" value="2"/>
+    <Rank id="2" value="4"/>
+    <Rank id="3" value="6"/>
+  </Flaw>
+  <Flaw type="spiritual" id="wrath_of_the_kami" name="Courroux des Kami">
+    <Rank id="1" value="3">
+      <Exception tag="shugenja" value="4"/>
+    </Rank>
+  </Flaw>
+</L5RCM>
