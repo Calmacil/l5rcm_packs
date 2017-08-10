@@ -219,243 +219,243 @@
 		</Raises>
 		<Description>Vous invoquez un tetsubo de terre pure incrusté de toutes sortes de pierres. La forme de base de l'arme prend celle d'un tetsubo, mais une Augmentation permet d'en faire n'importe-quelle arme lourde de votre choix. Le tetsubo a une VD de 2g2. Quand vous maniez cette arme, vous pouvez utiliser votre Rang de Maîtrise à laplace de votre compétence Armes Lourdes si vous le désirez. Si vous disposez de la Compétence Armes Lourdes, le tetsubo vous confère une Augmentation Gratuite pour la Manœuvre Renversement (ce bonus ne s'applique pas si vous créez le tetsubo pour une autre personne que vous). Le tetsubo disparait si vous le lâchez. Au lieu d'invoquer l'arme pour vous, vous pouvez la faire apparaître entre les mains d'un allié situé dans un rayon de 6m. On considère cet allié comme le lanceur de sort en tout point de vue, mais ne bénéficiant pas de l'Augmentation Gratuite mentionnée ci-dessus.</Description>
 	</SpellDef>
-	<SpellDef name="Biting Steel" area="1 bladed weapon" mastery="1" element="fire" range="Touch" duration="1 minute" id="biting_steel">
+	<SpellDef name="Lame Acérée" area="1 arme dotée d'une lame" mastery="1" element="fire" range="Contact" duration="1 minute" id="biting_steel">
 		<Tags>
 			<Tag>craft</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1 minute)</Raise>
+			<Raise>Durée (+1 minute)</Raise>
 		</Raises>
-		<Description>Fire spirits can infuse metal with their own fury, turning a sharp edge into a supremely perfect one. This spell enhances the damage of steel bladed weapons, such as swords, knives, naginata, etc. Biting Steel cannot affect weapons which are not metal blades, which are Nemuranai, or which have already been enhanced by magical effects. The weapon's DR is increased by 1k1 for the duration of the spell.</Description>
+		<Description>Les esprits du Feu peuvent transmettre toute leur fureur au métal et rendre une lame tranchante comme le plus acéré des rasoirs. Ce Sort augmente les dommages qu'infligent les armes à lame d'acier comme les sabres, couteaux, naginata, etc. Lame Acérée ne peut pas affecter les armes n'ayant pas de lames métalliques, les nemuranai et les armes déjà améliorées par des effets magiques. La VD de l'arme augmente de 1g1 pendant la durée du sort.</Description>
 	</SpellDef>
-	<SpellDef name="Burning Kiss Of Steel" area="One melee weapon in caster's hand" mastery="1" element="fire" range="Touch" duration="5 minutes" id="burning_kiss_of_steel">
+	<SpellDef name="Baiser brûlant de l'Acier" area="1 arme de corps à corps dans la main du lanceur" mastery="1" element="fire" range="Contact" duration="5 minutes" id="burning_kiss_of_steel">
 		<Tags>
 			<Tag>battle</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+2 minutes)</Raise>
+			<Raise>Durée (+2 minutes)</Raise>
 		</Raises>
-		<Description>This spell embraces a weapon with fire, causing it to be larger and more effective. When the spell is cast, a tendril of fire extends from your hands to engulf your weapon. (If you drop or lose the weapon, the spell effect ends.) This weapon gains a + 1k1 bonus to melee attack rolls. The bonus is +2k2 when making attacks against mounted opponents or opponents of larger than human size.</Description>
+		<Description>Ce sort enveloppe une arme avec des flammes, ce qui augmente sa taille et ses dégâts. Le Sort lancé fait apparaître une langue de flammes qui sort de votre main pour enrober votre arme (si vous lâchez ou perdez l'arme en question, le Sort s'achève). Cette arme bénéficie d'un bonus de +1g1 aux jets d'attaque de corps à corps. Le bonus monte à +2g2 contre les adversaires à cheval et les ennemis plus grands que les humains.</Description>
 	</SpellDef>
-	<SpellDef name="Envious Flames" area="One target" mastery="1" element="fire" range="30'" duration="Instantaneous" id="envious_flames">
+	<SpellDef name="Convoitise des Flammes" area="1 cible" mastery="1" element="fire" range="9m" duration="Instantané" id="envious_flames">
 		<Tags/>
 		<Raises>
 			<Raise>None</Raise>
 		</Raises>
-		<Description>Fire's most basic power is destruction, and summoned Fire spirits can easily be unleashed on one's enemies. This spell invokes a single Fire kami, which lances toward the target, hitting unerringly so long as the target is within range. The spell deals 2k2 Wounds. The burns this spell inflicts are quite painful, and if the spell targets a shugenja who is casting a spell, his Willpower roll has a TN of 20 plus the damage dealt, instead of the normal 10 plus damage dealt.</Description>
+		<Description>Le pouvoir de base du feu sème la destruction, et les esprits de cet élément, une fois convoqués, peuvent facilement se déchaîner contre un adversaire. Ce Sort invoque un unique kami du Feu qui se jette sur la cible, la frappant infailliblement du moment qu'elle se trouve à portée. Le Sort occasionne 2g2 Blessures. Les brûlures qu'il infligent se montrent assez douloureuses, et si le Sort vise un shugenja en train de lancer un Sort, le Jet de Volonté qu'il doit effectuer se fait contre un ND égal à 20 plus les dégâts infligés (au lieu de 10 plus les dégâts infligés en temps normal).</Description>
 	</SpellDef>
-	<SpellDef name="Extinguish" area="100' radius" mastery="1" element="fire" range="Personal" duration="Instantaneous" id="extinguish">
+	<SpellDef name="Extinction" area="Rayon de 30m" mastery="1" element="fire" range="Personnel" duration="Instantané" id="extinguish">
 		<Tags/>
 		<Raises>
-			<Raise>Area (+20 feet)</Raise>
+			<Raise>Zone (+6m)</Raise>
 		</Raises>
-		<Description>Fire spirits can be driven away by the proper invocation, a very useful ability in Rokugani towns and cities where the construction is all wood and paper. This spell dismisses the active Fire kami in the area. All non-magical fire in the area of effect is immediately snuffed out, and any damage dealt by fire (magical or not) reduces its DR by 1k1 until the start of the next Round.</Description>
+		<Description>Repousser les esprits du Feu si l'on connaît la prière adéquate devient un talent très utile dans les villes et cités rokugani où l'on fabrique tous les bâtiments en bois et en papier. Ce Sort disperse les kami du Feu actifs de la zone. Tous les feux non magiques de la zone s'éteignent immédiatement, et tous les dégâts infligés par le feu (magique ou non) voient leur VD réduite de 1g1 jusqu'au début du Round suivant.</Description>
 	</SpellDef>
-	<SpellDef name="Fires Of Purity" area="One target" mastery="1" element="fire" range="25'" duration="1 minute" id="fires_of_purity">
+	<SpellDef name="Feux Purificateurs" area="1 cible" mastery="1" element="fire" range="7,5m" duration="1 minute" id="fires_of_purity">
 		<Tags>
 			<Tag>defense</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Damage (+1k0 per two Raises)</Raise>
+			<Raise>Dommages (+1g0 par tranche de deux Augmentations)</Raise>
 		</Raises>
-		<Description>This spell, one of to the few directly protective prayers involving the Fire kami, asks the kami to protect one person, enveloping the target in a shroud of bright flames. Neither the caster nor anything he carries takes damage from the spell, but anyone who comes into contact with him or strikes him with a melee attack takes 2k2 Wounds. Anyone the target strikes in melee with an unarmed attack or a weapon he carried when the spell was cast also rakes an extra 2k2 Wounds. Anything the target puts down, however, cannot be picked back up without subjecting it to the damage from the spell. Ranged weapons such as arrows bypass this barrier of fire, dealing Wounds as normal.</Description>
+		<Description>Ce Sort est l'une des rares prières impliquant les kami du Feu à avoir un effet protecteur direct. Il demande aux kami de protéger une personne en l'enveloppant d'un voile de flammes vives. Ni la cible ni ce qu'elle porte ne subissent de dommages de la part du Sort, mais quiconque entre en contact avec elle ou la frappe à l'aide d'une arme de corps à corps subit 2g2 Blessures. Tous ceux que la cible frappe à mains nues ou à l'aide d'une arme de corps à corps qu'elle portait quand le Sort a été lancé subissent également 2g2 Blessures supplémentaires. Toutefois, si la cible lâche ou dépose un objet qu'elle porte, elle ne peut pas le reprendre: celui-ci subirait les dégâts du Sort. Les armes à distance comme les flèches passent sans problème cette barrière de feu, infligeant les mêmes Blessures qu'en temps normal.</Description>
 	</SpellDef>
-	<SpellDef name="Fury Of Osano-wo" area="One target" mastery="1" element="fire" range="300'" duration="Instantaneous" id="fury_of_osanowo">
+	<SpellDef name="Fureur d'Osano-Wo" area="1 cible" mastery="1" element="fire" range="90m" duration="Instantané" id="fury_of_osanowo">
 		<Tags>
 			<Tag>thunder</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Damage (+1k0 per two Raises)</Raise>
+			<Raise>Dommages (+1g0 par tranche de deux Augmentations)</Raise>
 		</Raises>
-		<Description>This spell is actually a prayer to the Fortune of Fire and Thunder, inviting his wrath upon your enemy. It can only be cast outdoors, and summons a bolt of lightning from the sky, striking the target for 5k2 Wounds. Everyone within 10' of the target must make a Stamina roll versus a TN of 15 to avoid being deafened for 2 Rounds. If this spell is cast during a thunderstorm, the damage is increased to 6k2 for a moderate storm and 6k3 for a disastrous storm or hurricane.</Description>
+		<Description>Ce Sort, en réalité une prière adressée à la Fortune du Feu et du Tonnerre, la supplie d'abattre son courroux sur votre ennemi. On ne peut le lancer qu'en extérieur: elle invoque alors un éclair qui frappe la cible et inflige 5g2 Blessures. Quiconque se trouve dans un rayon de 3m autour de la cible doit effectuer un jet de Constitution contre un ND de 15 pour éviter d'être assourdi pendant 2 Rounds. Si ce Sort est lancé en plein orage, les dommages passent à 6g2 s'il s'agit d'un orage ordinaire, voire 6g3 dans le cas d'un terrible orage ou d'un véritable ouragan.</Description>
 	</SpellDef>
-	<SpellDef name="Katana Of Fire" area="One created weapon" mastery="1" element="fire" range="Personal or 20' (see script description)" duration="5 minutes" id="katana_of_fire">
+	<SpellDef name="Katana du Feu" area="1 arme crée" mastery="1" element="fire" range="Personnel ou 6m (voir description)" duration="5 minutes" id="katana_of_fire">
 		<Tags>
 			<Tag>battle</Tag>
 			<Tag>craft</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Damage (+1k0)</Raise>
-			<Raise>Duration (+5 minutes)</Raise>
-			<Raise>Range (+5 feet)</Raise>
+			<Raise>Dommages (+1g0)</Raise>
+			<Raise>Durée (+5 minutes)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>You summon a blade of pure fire, blazing like the soul of an honorable warrior. The weapon's default form is a katana, but one Raise can change its form to any other sword of your choosing. The katana has a DR of 2k2. When wielding this weapon, you may use your School Rank in place of your Kenjutsu Skill if you wish. If you do possess the Kenjutsu Skill, you add your Honor Rank to all damage rolls made with this weapon. The katana of fire disappears if it is lost from your hand. Instead of summoning the katana for yourself, you may cause it to appear in the hands of an ally within 20 feet. He is treated as the caster for all purposes of the spell, but does not gain the Honor boost to damage.</Description>
+		<Description>Vous invoquez une lame de feu brut, vive et brillante comme l'âme d'un guerrier honorable. La forme de base de l'arme est celle d'un katana, mais une Augmentation permet d'en faire n'importe quel type de sabre de votre choix. Le katana a une VD de 2g2. Quand vous maniez cette arme, vous pouvez utiliser votre Rang de Maîtrise à la place de votre Compétence Kenjutsu si vous le désirez. Si vous disposez de la Compétence Kenjutsu, vous ajoutez votre Rang d'Honneur au résultat de tous les jets de dommages effectués avec cette arme. Le katana disparaît si vous le lâchez. Au lieu d'invoquer l'arme pour vous, vous pouvez la faire apparaître entre les mains d'un allié situé dans un rayon de 6m. On considère le porteur comme le lanceur de sort à tout point de vue, mais il ne bénéficie pas du bonus d'Honneur aux dommages mentionné ci-dessus.</Description>
 	</SpellDef>
-	<SpellDef name="Never Alone" area="One target" mastery="1" element="fire" range="Touch" duration="5 Rounds (see script description)" id="never_alone">
+	<SpellDef name="Jamais Seul" area="1 cible" mastery="1" element="fire" range="Contact" duration="5 Rounds (voir description)" id="never_alone">
 		<Tags/>
 		<Raises>
-			<Raise>Targets (+1)</Raise>
+			<Raise>Cibles (+1)</Raise>
 		</Raises>
-		<Description>This spell invokes Fire's element of knowledge and understanding, strengthening the spirit of one of your allies by opening his eyes to the courage of his ancestors. The target of the spell receives a bonus to all attack rolls, Skill rolls, and Trait Rolls equal to your Fire Ring. This effect lasts until either the spell expires, or until the target fails an attack roll or Skill Roll, or until the target suffers Wounds from any source, whichever comes first.</Description>
+		<Description>Ce Sort invoque l'aspect intellectuel du Feu, renforçant l'âme de l'un de vos alliés en lui permettant d'ouvrir les yeux et de réaliser l'étendue du courage de ses ancêtres. La cible de ce Sort bénéficie d'un bonus égal à votre Anneau du Feu, lequel s'ajoute au résultat de ses jets d'attaque, de Compétence et de Traits. Cet effet s'arrête quand le Sort s'achève, quand la cible rate un jet d'attaque ou de Compétence, ou quand elle subit des Blessures, quelle qu'en soit l'origine.</Description>
 	</SpellDef>
-	<SpellDef name="The Fires That Cleanse" area="c Area: 30' radius" mastery="1" element="fire" range="Self" duration="Instantaneous" id="the_fires_that_cleanse">
+	<SpellDef name="Feux de la Destruction" area="Rayon de 9m" mastery="1" element="fire" range="Personnelle" duration="Instantané" id="the_fires_that_cleanse">
 		<Tags/>
 		<Raises>
-			<Raise>Area of Effect (+5 feet per two Raises)</Raise>
+			<Raise>Zone (+1,5m par tranche de 2 augmentations)</Raise>
 		</Raises>
-		<Description>Destruction is one of the basic impulses of Fire, and this spell calls on that urge to spread destruction in the caster's surroundings. The spell whips the kami into a frenetic chaos, destroying everything around you. Everyone in the area of effect, including you, suffers damage with DR equal to your Fire Ring. This result is rolled once and applied to everyone within the area. However, you take only half damage (rounded up), since the kami makes some effort to avoid you.</Description>
+		<Description>La destruction est la pulsion originelle du Feu, et ce Sort y fait appel pour répandre des ravages tout autour de celui qui le lance. Le Sort sème l'agitation parmi les kami, les poussant à se lancer dans un tumulte frénétique pour déturire tout ce qui entoure le lanceur de sort. Tous ceux qui se trouvent dans la zone d'effet, y compris le lanceur des ort, subissent des dégâts dont la VD est égale à son Anneau du Feu. On ne fait qu'un jet ded és, et le résultat s'applique à tous ceux pris dans la zone d'effet. Toutefois, le llanceur de sort ne subit que la moitié des dégâts (arrondis au supérieur), car les kami font malgré tout quelques efforts pour l'éviter.</Description>
 	</SpellDef>
-	<SpellDef name="The Raging Forge" area="One weapon or armor" mastery="1" element="fire" range="Touch" duration="Instantaneous" id="the_raging_forge">
+	<SpellDef name="Forge Ardente" area="1 arme ou armure" mastery="1" element="fire" range="Contact" duration="Instantané" id="the_raging_forge">
 		<Tags>
 			<Tag>craft</Tag>
 		</Tags>
 		<Raises>
-			<Raise>None</Raise>
+			<Raise>Aucune</Raise>
 		</Raises>
-		<Description>Fire is the element of creation as well as destruction, and a skilled shugenja can use this to great effect. This spell invokes the powers of the forge, mighty and merciless, to remake a material item, such as a weapon or suit of armor, into its perfect form. The target item loses all blemishes, including cracks or nicks. This spell cannot repair an item which has actually been broken or destroyed, however, and it can only affect items that are of ordinary quality.</Description>
+		<Description>Le Feu s'avère autant un élément de création que de destruction, et un shugenja talentueux peut en user très efficacement. Ce Sort invoque les pouvoirs de la forge, dans toute sa puissance et son caractère impitoyable, pour recréer un objet matériel, arme ou armure, de façon parfaite. Tous les défauts de l'objet disparaissent, fêlures et menues entailles comprises. Ce Sort ne peut toutefois pas réparer un objet réellement brisé ou détruit, et ne peut affecter que des objets de qualité ordinaire.</Description>
 	</SpellDef>
-	<SpellDef name="Boundless Sight" area="Self" mastery="1" element="void" range="50 miles" duration="4 rounds" id="boundless_sight">
+	<SpellDef name="Vision sans Limite" area="Personnel" mastery="1" element="void" range="80km" duration="4 rounds" id="boundless_sight">
 		<Tags/>
 		<Raises>
-			<Raise>Duration (+1 round)</Raise>
-			<Raise>Range (+5 miles)</Raise>
+			<Raise>Durée (+1 round)</Raise>
+			<Raise>Portée (+8km)</Raise>
 		</Raises>
-		<Description>The most essential lesson of the ishiken is that all is linked through the Void, and through the Void all can be perceived. By focusing your energy, you can look through the veil and see another location as if you were standing there. This location must be familiar to you, and you must have been there at least once before. For the duration of the spell, you can see and hear all that transpires in the other location, but you may not be detected and you may not interact with things or individuals there in any way. During this spell, your body is in a trance-like state that leaves you highly vulnerable to attack (your Armor TN is reduced to 5).</Description>
+		<Description>La plus essentielle des leçons qu'apprend l'ishiken dit que chaque chose est reliée aux autres par le Vide, et que tout peut donc être perçu par l'intermédiaire de cet élément. En concentrant votre énergie, vous pouvez perscer le voile et voir un autre lieu comme si vous vous y trouviez en personne. Le lieu doit vous être familier, et vous devez y être allé au moins une fois auparavant. Pendant la durée du Sort, vous pouvez voir et entendre ce qui se passe dans cet autre lieu, mais vous ne pouvez ni être détecté ni interagir avec les objets ou les personnes qui s'y trouvent, de quelque façon que ce soit. Pendant la durée du sort, votre corps se retrouve plongé dans une transe qui vous rend extrêmement vulnérable aux attaques (votre ND d'armure est réduit à 5).</Description>
 	</SpellDef>
-	<SpellDef name="Drawing The Void" area="Self" mastery="1" element="void" range="Personal" duration="Instantaneous" id="drawing_the_void">
+	<SpellDef name="Drainer le Vide" area="Personnel" mastery="1" element="void" range="Personnel" duration="Instantané" id="drawing_the_void">
 		<Tags/>
 		<Raises>
-			<Raise>Special (+1 Void Point gained per three Raises)</Raise>
+			<Raise>Special (+1 Point de Vide gagné par tranche de trois Augmentations)</Raise>
 		</Raises>
-		<Description>The ability to reach into the Void itself and gain strength from it is a vital lesson in the training of all ishiken. Upon completion of this spell, you gain a number of additional Void Points equal to your School Rank plus one. If these Void Points take you above the number you may normally possess, then you lose one of the extra Void Points every Round that you do not spend one.</Description>
+		<Description>La capacité à puiser dans le Vide et à en tirer de l'énergie est une leçon vitale dans le cursus de tous les ishiken. Une fois ce Sort lancé, vous gagnez un nobre de Points de Vide supplémentaires égal à votre Rang de Maîtrise +1. Si ce gain vous amène à dépasser votre total habituel de Points de Vide, vous perdez un de ces poins supplémentaires à chaque Round où vous n’en dépensez pas.</Description>
 	</SpellDef>
-	<SpellDef name="Flow Through The Void" area="Up to one cubic foot of pure elemental matter" mastery="1" element="void" range="Touch" duration="Permanent" id="flow_through_the_void">
+	<SpellDef name="Transmutation du Vide" area="Jusqu'à 30dm³ de matière élémentaire pure" mastery="1" element="void" range="Contact" duration="Permanent" id="flow_through_the_void">
 		<Tags/>
 		<Raises>
-			<Raise>Area (+1 cubic foot)</Raise>
+			<Raise>Zone (+30 dm³)</Raise>
 		</Raises>
-		<Description>In the Void, all things are equal, all one and none. By tapping into this connection, you may transform a small amount of pure elemental matter(water, fire, air, or Earth in the form of dirt or soil) into anyone other element.</Description>
+		<Description>Dans le Vide, tout est lié, tout est un. En vous servant de ce lien qui unit toute chose, vous pouvez transformer une petite quantité de matière élémentaire pure — eau, feu, air et terre ou boue — en n'importe-quel autre élément.</Description>
 	</SpellDef>
-	<SpellDef name="See Through Lies" area="Target individual" mastery="1" element="void" range="25'" duration="Instantaneous" id="see_through_lies">
+	<SpellDef name="Percer le Mensonge" area="1 individu ciblé" mastery="1" element="void" range="7,5m" duration="Instantané" id="see_through_lies">
 		<Tags/>
 		<Raises>
-			<Raise>Range (+5')</Raise>
-			<Raise>Special (one additional Advantage/Disadvantage per Raise)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
+			<Raise>Special (un Avantage/Désavantage supplémentaire par Augmentation)</Raise>
 		</Raises>
-		<Description>The patterns that comprise all things in the Void exist in individuals as well, and with training, ishiken can recognize them. You learn the highest point Advantage or highest point Disadvantage (your choice) possessed by the target of this spell.</Description>
+		<Description>On retrouve dans chaque individu la même trame que celle qui relie toute chose au sein du Vide dans l'univers, et avec de l'entraînement, les ishiken peuvent en distinguer les motifs. Vous apprenez l'Avantage ou le Désavantage de la cible ayant la valeur la plus élevée en points.</Description>
 	</SpellDef>
-	<SpellDef name="Sense Void" area="25' radius around the caster" mastery="1" element="void" range="Personal" duration="Concentration" id="sense_void">
+	<SpellDef name="Sentir le Vide" area="Rayon de 7,5m autour du lanceur" mastery="1" element="void" range="Personnel" duration="Concentration" id="sense_void">
 		<Tags/>
 		<Raises>
-			<Raise>Area (+5' radius)</Raise>
+			<Raise>Zone (+1,5m de rayon)</Raise>
 		</Raises>
-		<Description>Life is evident in the Void like the stars in the night sky. This spell causes you to enter a trance during which you become aware of the existence and location of all living creatures within the radius of the spell. Although you are aware of their location, you cannot see them or any details. You would know if there were the three humans waiting outside the castle wall, for instance, but you would not recognize them other than to know that they were present. This also gives you information regarding non-sentient, natural living creatures. Spirits and Shadowlands creatures are recognizable as a gap in your awareness, although this spell cannot recognize Tainted humans as anything other than humans.</Description>
+		<Description>La vie se montre aussi visible au sein du Vide que les étoiles en plein ciel nocturne. Ce Sort vous permet d'entrer en transe afin de percevoir l'existence et l'endroit où se trouvent toutes les créatures vivantes situées dans le rayon du Sort. Bien que vous sachiez où elles se situent, vous ne pouvez pas les voir ni obtenir de détails à leur sujet. Vous pouvez par exemple savoir qu'il y a trois humains qui attendent au pied de la muraille du château, mais vous n'aurez aucune information relative à leur identité. Le Sort vous informe également de la présence de créatures non douées de raisons et de créatures vivantes naturelles. Les esprits et créatures de l'Outremonde apparaissent comme des «vides» au sein de vos perceptions, mais ce Sort ne permet pas de distinguer si un individu est Souillé ou non: il ne sera alors perçu que comme un humain et rien de plus.</Description>
 	</SpellDef>
-	<SpellDef name="The Void's Caress" area="One target individual" mastery="1" element="void" range="Touch" duration="1 minute" id="the_voids_caress">
+	<SpellDef name="Caresse du Vide" area="1 individu ciblé" mastery="1" element="void" range="Contact" duration="1 minute" id="the_voids_caress">
 		<Tags/>
 		<Raises>
-			<Raise>Duration (+1 minute)</Raise>
+			<Raise>Durée (+1 minute)</Raise>
 		</Raises>
-		<Description>Although beginning students of ishiken-do cannot affect the pattern of the Void, they can make very short-term alterations to it. You may negate any one Mental or Spiritual Disadvantage of the target of this spell posseses, up to a maximum of 5 points in value. The Shadowlands Taint may not be removed via this spell, although the mental disorders that can be caused by it can be temporarily alleviated.</Description>
+		<Description>Bien que les disciples débutants de l'ishiken-do ne puissent affecter la trame du Vide, ils peuvent en altérer brièvement les nuances. Vous pouvez neutraliser un Désavantage Mental ou Spirituel dont la cible de ce Sort est affligée et dont la valeur ne dépasse pas 5 points. La Souillure de l'Outremonde ne peut pas être retirée par ce Sort, même si les désordres mentaux qu'elle suscite peuvent être soulagés temporairement.</Description>
 	</SpellDef>
-	<SpellDef name="Touch The Emptiness" area="One target individual" mastery="1" element="void" range="30'" duration="Instantaneous" id="touch_the_emptiness">
+	<SpellDef name="Effleurement de la Vacuité" area="1 individu ciblé" mastery="1" element="void" range="9m" duration="Instantané" id="touch_the_emptiness">
 		<Tags/>
 		<Raises>
-			<Raise>Range (+5')</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>The sensation of experiencing the Void firsthand can be extremely disturbing for those unaccustomed to it. The target of this spell suffers 1k1 damage and is dazed.</Description>
+		<Description>Prendre directement contact avec le Vide peut s'avérer particulièrement troublant pour ceux n'ayant pas l'habitude. La cible de ce Sort subit 1g1 Blessures et devient Hébétée.</Description>
 	</SpellDef>
-	<SpellDef name="Witness The Untold" area="One target individual" mastery="1" element="void" range="15'" duration="3 rounds" id="witness_the_untold">
+	<SpellDef name="Contemplation des Possibles" area="1 individu ciblé" mastery="1" element="void" range="4,5m" duration="3 rounds" id="witness_the_untold">
 		<Tags>
 			<Tag>divination</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Range (+5')</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>It is possible to gain fleeting glimpses of things that have not yet happened by peering through the Void. If you are delaying your action, you may interrupt the target of the spell after he has declared his action but before he has taken his action when his turn comes up. This may be done during each Round for the duration of the spell. (Normally someone delaying their Action cannot interrupt the Action of another participant.)</Description>
+		<Description>On peut avoir un bref aperçu d'événements non encore produits en scrutant le Vide. Si vous retardez votre action, vous pouvez interrompre la cible de ce Sort après qu'elle ait déclaré son action, mais avant qu'elle ne l'accomplisse quand vient son tour. Vous pouvez agir ainsi à chaque Round pendant toute la durée du Sort (normalement, quelqu'un qui retarde son Action ne peut psa interrompre celle d'un autre protagoniste).</Description>
 	</SpellDef>
-	<SpellDef name="Bo Of Water" area="One created weapon" mastery="1" element="water" range="Personal or 20' (see spell description)" duration="5 minutes" id="bo_of_water">
+	<SpellDef name="Bo de l'Eau" area="1 arme créée" mastery="1" element="water" range="Personnel ou 6m (voir ci-dessous)" duration="5 minutes" id="bo_of_water">
 		<Tags>
 			<Tag>craft</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Damage (+1k0)</Raise>
-			<Raise>Duration (+5 minutes)</Raise>
-			<Raise>Range (+5 feet)</Raise>
+			<Raise>Dommages (+1g0)</Raise>
+			<Raise>Durée (+5 minutes)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>You summon a staff of pure water, as rigid as the real thing despite its fluid nature. The weapon's default form is a Bo, but one Raise can change its form to any other staff of your choosing. The weapon has DR 1k2. If you do not possess the Staves Skill, you may instead use your School Rank in its place. If you do possess the Staves Skill, using this weapon grants you one Free Raise that can only he used on the Knockdown Maneuver. This weapon disappears if it is lost from your hand. Instead of summoning the Bo for yourself, you may cause it to appear in the hands of an ally within 20 feet. He is treated as the caster for all purposes of the spell, but he does not gain the Free Raise bonus.</Description>
+		<Description>Vous invoquez un bo fait d'eau pure, parfaitement rigide malgré la substance fluide qui le compose. La forme de base de l'arme présente celle d'un bo, mais une Augmentation permet d'en faire n'importe quel type de bâton de votre choix. Le bo a une VD de 1g2. Si vous ne possédez pas la Compétence Bâtons, vous pouvez utiliser votre Rang de Maîtrise à la place. Si au contraire vous en disposez déjà, utiliser cette arme vous confère une Augmentation Gratuite qui ne peut être utilisée que pour effectuer la Manœuvre de Renversement. Cette arme disparaît si vous la lâchez. Au lieu d'invoquer l'arme pour vous, vous pouvez la faire apparaître entre les mains d'un allié situé dans un rayon de 6m. On considère la cible comme le lanceur de sort en tous points, mais ne bénéficiant pas de l'Augmentation Gratuite mentionnée ci-dessus.</Description>
 	</SpellDef>
-	<SpellDef name="Clarity Of Purpose" area="10' radius around caster" mastery="1" element="water" range="Personal" duration="2 rounds" id="clarity_of_purpose">
+	<SpellDef name="Clarté de l'Objectif" area="3m de rayon autour du lanceur" mastery="1" element="water" range="Personnel" duration="2 rounds" id="clarity_of_purpose">
 		<Tags>
 			<Tag>battle</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Area (+5')</Raise>
-			<Raise>Duration (+1 round per two Raises)</Raise>
+			<Raise>Zone (+1,5m)</Raise>
+			<Raise>Durée (+1 round par tranche de deux Augmentations)</Raise>
 		</Raises>
-		<Description>One of the many strengths of Water is in its speed. All allies within the area of effect of this spell gain a bonus of +5 to their Initiative Scores for the duration of the spell.</Description>
+		<Description>L’un des nombreux atouts de l'Eau réside dans sa vitesse. Tous les alliés situés dans la zone d'effet de ce Sort bénéficient d'un bonus de +5 à leur Score d'Initiative pendant sa durée.</Description>
 	</SpellDef>
-	<SpellDef name="Ebbing Strength" area="One target creature" mastery="1" element="water" range="20'" duration="3 rounds" id="ebbing_strength">
+	<SpellDef name="Force Déclinante" area="1 créature ciblée" mastery="1" element="water" range="6m" duration="3 rounds" id="ebbing_strength">
 		<Tags>
 			<Tag>defense</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1 round)</Raise>
-			<Raise>Range (+5')</Raise>
+			<Raise>Durée (+1 round)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>Energy flows through the universe just as water flows through the mortal shell. You may send your energy to another, weakening yourself and strengthening them in the process. You may reduce anyone of your Physical Traits by an amount up to your School Rank. The target of this spell increases the same Physical Trait by the same amount. If your Trait is reduced to 0 as a result of this spell, you immediately fall unconscious and the spells duration is reduced to 1 round. No trait may be enhanced above double its normal rank by this spell.</Description>
+		<Description>L’énergie coule dans l'univers comme l'eau à l'intérieur du corps des mortels. Vous pouvez transmettre votre énergie à autrui, vous affaiblissant et le renforçant du même coup. Vous pouvez réduire n'importe lequel de vos Traits Physiques en lui retirant un nombre inférieur ou égal à votre Rang de Maîtrise. La cible du Sort voit le même Trait augmenter du nombre choisi. Si votre Trait passe à 0 à cause de ce Sort, vous sombrez immédiatement dans l'inconscience et la durée du Sort est réduite à 1 Round. Aucun Trait ne peut être augmenté au-delà du double de son Rnag normal par le biais de ce Sort.</Description>
 	</SpellDef>
-	<SpellDef name="Path To Inner Peace" area="One target individual" mastery="1" element="water" range="Touch" duration="Instantaneous" id="path_to_inner_peace">
+	<SpellDef name="Voie vers la Paix Intérieure" area="1 individu ciblé" mastery="1" element="water" range="Contact" duration="Instantané" id="path_to_inner_peace">
 		<Tags/>
 		<Raises>
-			<Raise>None</Raise>
+			<Raise>Auncune</Raise>
 		</Raises>
-		<Description>The water kami can influence the flow of water through the body, dramatically hastening the natural healing process. You can use this spell to heal Wounds that another individual has suffered. This spell restores a number of Wounds to the target equal to the amount by which the Spell Casting Roll exceeded the spells TN to cast.</Description>
+		<Description>Les kami de l'Eau peuvent influencer le flux de l'eau dans le corps, accélérant de façon spectaculaire le processus de guérison. Vous pouvez utiliser ce Sort pour guérir les Blessures subies par autrui. Ce Sort restaure che la cible un nombre de Blessures égal à la différence entre le résultat du Jet d'Incantation et le ND du Sort.</Description>
 	</SpellDef>
-	<SpellDef name="Reflections Of Pan Ku" area="One object" mastery="1" element="water" range="Touch" duration="Instantaneous" id="reflections_of_pan_ku">
+	<SpellDef name="Reflets de P'an Ku" area="1 objet" mastery="1" element="water" range="Contact" duration="Instantané" id="reflections_of_pan_ku">
 		<Tags>
 			<Tag>divination</Tag>
 		</Tags>
 		<Raises>
-			<Raise>None</Raise>
+			<Raise>Aucune</Raise>
 		</Raises>
-		<Description>Divining the abilities of an object is among the simplest lessons a student of water learns in the temple. If this spell is successfully cast on an object, you automatically learn all powers and abilities that object possesses. This is most frequently used to identify any supernatural qualities an item possesses, such as a Nemuranai or a cursed weapon, but it can also identify the spell contained within a shugenja's prayer scroll. This spell will not allow a shugenja to read a scroll if it is written in a cipher he does not understand, but he can at least identify the spell in question. This spell will also grant the caster knowledge of the item's origin in very broad strokes, such as where it was forged, the Clan of the individual who has carried it the longest, or something similar at the GM's discretion.</Description>
+		<Description>Reconnaître les capacités inhérentes à un objet fait partie des premières leçons que chaque disciple de l'Eau apprend au temple. En lançant avec succès ce Sort sur un objet, vous en apprenez automatiquement tous les pouvoirs et capacités. On utilise principalement ce Sort pour identifier les qualités surnaturelles d'un objet comme un nemuranai ou une arme maudite, mais il peut également permettre de reconnaître le Sort contenu dans le parchemin de prière d'un shugenja. Ce Sort ne permet pas à un Shugenja de lire un parchein écrit avec un code secret qu'il ne comprend pas, mais seulement d'identifier le Sort en question. Il donne également au lanceur de sort une vague idée de l'origine de l'objet: où il a été forgé, à quel Clan appartenait l'individu qui l'a proté le plus longtemps, ou ce genre ed détail, au bon vouloir du MJ.</Description>
 	</SpellDef>
-	<SpellDef name="Reversal Of Fortunes" area="One target individual" mastery="1" element="water" range="10'" duration="3 rounds" id="reversal_of_fortunes">
+	<SpellDef name="Revers de Fortune" area="1 individu ciblé" mastery="1" element="water" range="3m" duration="3 rounds" id="reversal_of_fortunes">
 		<Tags/>
 		<Raises>
-			<Raise>Duration (+1 round)</Raise>
-			<Raise>Range (+5')</Raise>
+			<Raise>Durée (+1 round)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>Versatility is the domain of water, and those who carry its blessing reap the rewards. For the duration of this spell, the target may immediately re-roll anyone roll per round. This must be done immediately after the first roll is completed, and the target may keep either result.</Description>
+		<Description>La polyvalence est le domaine de l'Eau, et ceux qu'elle couvre de ses bienfaits savent en tirer profit. Pendant toute la durée de ce Sort, la cible peut immédiatement relancer un jet de dé par Round. Elle doit le faire immédiatement après le premier jet de dé, et peut garder le résultat de son choix.</Description>
 	</SpellDef>
-	<SpellDef name="Speed Of The Waterfall" area="One target individual or creature" mastery="1" element="water" range="Touch" duration="1 hour" id="speed_of_the_waterfall">
+	<SpellDef name="Vitesse de la Cascade" area="1 individu ou créature ciblé" mastery="1" element="water" range="Contact" duration="1 heure" id="speed_of_the_waterfall">
 		<Tags>
 			<Tag>travel</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+10 minutes)</Raise>
-			<Raise>Range (may increase to 10' for two Raises)</Raise>
+			<Raise>Durée (+10 minutes)</Raise>
+			<Raise>Portée (peut passer à 3m pour 2 Augmentations)</Raise>
 		</Raises>
-		<Description>Those filled with the essence of water find their movement far faster than ever before. The target of this spell may move a total distance per round equal to their Water x 20' plus an amount equal to twice your Water Ring, This spell does not grant the target additional movement, it simply increases the maximum possible amount they can move during a Round for the duration of the spell.</Description>
+		<Description>Ceux imprégnés de l'essence élémentaire de l'Eau peuvent se mouvoir bien plus vite. La cible de ce Sort peut se déplacer par Round d'une distance totale égale à son Rang d'Eau x 6m plus un nombre de mètres égal au double de l'Anneau d'Eau du lanceur de sort. Ce Sort ne donne pas de déplacement supplémentaire à la cible, mais augmente simplement son déplacement maximum pendant chaque Round pour la durée du Sort.</Description>
 	</SpellDef>
-	<SpellDef name="Spirit Of The Water" area="One target individual" mastery="1" element="water" range="20'" duration="Instantaneous" id="spirit_of_the_water">
+	<SpellDef name="Esprit de l'Eau" area="1 individu ciblé" mastery="1" element="water" range="6m" duration="Instantané" id="spirit_of_the_water">
 		<Tags>
 			<Tag>battle</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Range (+5')</Raise>
-			<Raise>Special (Increase additional action to Complex for 5 Raises)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
+			<Raise>Special (l'action supplémentaire passe de Simple à Complexe pour 5 Augmentations)</Raise>
 		</Raises>
-		<Description>The spirit of Water is both fluid and rapid. The target gains one additional Simple Action during the Reactions Stage of the Round in which this spell is completed. This Action cannot be used to make an attack.</Description>
+		<Description>L'esprit de l'Eau se montre à la fois fluide et rapide. La cible bénéficie d'une Action Simple supplémentaire durant l'étape de Réactions du Round où le Sort s’accomplit. Cette action ne peut pas être utilisée pour porter une attaque.</Description>
 	</SpellDef>
-	<SpellDef name="Sympathetic Energies" area="One target individual" mastery="1" element="water" range="25'" duration="Instantaneous" id="sympathetic_energies">
+	<SpellDef name="Transfert d'Énergies" area="1 individu ciblé" mastery="1" element="water" range="7,5m" duration="Instantané" id="sympathetic_energies">
 		<Tags/>
 		<Raises>
-			<Raise>Range (+5')</Raise>
-			<Raise>Special (see spell description)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
+			<Raise>Special (Voir description)</Raise>
 		</Raises>
-		<Description>Energy flows between all living things as water flows through the Earth, You may transfer any one existing spell effect from you to the willing target of this spell. With three Raises, you may transfer one spell effect from one willing target to another willing target. You cannot transfer spells between unwilling targets.</Description>
+		<Description>L’énergie relie les êtres vivants et les parcourt comme l'eau traverse la terre elle-même. Vous pouvez transférer l'effet d'un Sort dont vous bénéficiez actuellement à la cible consentante de ce Sort. Au prix de trois Augmentations, vous pouvez transférer un effet de Sort d'une cible consentante à une autre. Dans tous les cas, vous ne pouvez pas transférer d'effets si une des cibles s'y refuse.</Description>
 	</SpellDef>
-	<SpellDef name="The Rushing Wave" area="One target individual" mastery="1" element="water" range="10'" duration="1 round" id="the_rushing_wave">
+	<SpellDef name="Célérité des Flots" area="1 individu ciblé" mastery="1" element="water" range="3m" duration="1 round" id="the_rushing_wave">
 		<Tags>
 			<Tag>travel</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1 round)</Raise>
-			<Raise>Range (+5')</Raise>
+			<Raise>Durée (+1 round)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>You can temporarily increase the speed of your target. This spell allows the target to make a Free Move Action of up to his Water Ring x 10' (instead of the normal x 5'). Without Raises for Duration, this benefit must be used on the target's next Turn or it is lost.</Description>
+		<Description>Vous pouvez temporairement accroître la vitesse de la cible. Ce Sort permet à la cible d'effectuer une Action de Mouvement Gratuite pour se déplacer sur une distance égale à son Anneau d'Eau x 3m (et non son Rang d'Eau x 1,5m comme d'ordinaire). Si vous ne déclarez pas d'Augmentations pour accroître la durée du Sort, cet avantage doit être utilisé lors du prochain tour de la cible, sinon il est perdu.</Description>
 	</SpellDef>
 	<SpellDef name="Benten's Touch" area="Target individual (may be the caster)" mastery="2" element="air" range="Personal / Touch" duration="1 hour" id="bentens_touch">
 		<Tags/>
