@@ -457,161 +457,161 @@
 		</Raises>
 		<Description>Vous pouvez temporairement accroître la vitesse de la cible. Ce Sort permet à la cible d'effectuer une Action de Mouvement Gratuite pour se déplacer sur une distance égale à son Anneau d'Eau x 3m (et non son Rang d'Eau x 1,5m comme d'ordinaire). Si vous ne déclarez pas d'Augmentations pour accroître la durée du Sort, cet avantage doit être utilisé lors du prochain tour de la cible, sinon il est perdu.</Description>
 	</SpellDef>
-	<SpellDef name="Benten's Touch" area="Target individual (may be the caster)" mastery="2" element="air" range="Personal / Touch" duration="1 hour" id="bentens_touch">
+	<SpellDef name="Influence de Benten" area="Individu ciblé" mastery="2" element="air" range="Personnel/Contact" duration="1 heure" id="bentens_touch">
 		<Tags/>
 		<Raises>
-			<Raise>Range (may increase range to 5' with a single Raise)</Raise>
+			<Raise>Portée (Peut passer à 1,5m pour 1 Augmentation)</Raise>
 		</Raises>
-		<Description>By calling upon the air kami to whisper suggestions to others, you may cause them perceive the target of this spell more positively than they otherwise might. The target of this spell gains a bonus of + 1k1, plus your Air Ring, the total of all Social Skill rolls made for the duration of the spell.</Description>
+		<Description>En faisant appel aux kami de l'Air pour murmurer à l'oreille d'autrui, vous pouvez les amener à percevoir la cible de ce Sort de façon plus positive que d'ordinaire. La cible de ce Sort bénéficie d'un bonus de +1g1, auquel s'ajoute votre Anneau d'Air, au résultat de tous ses Jets de Compétences sociales effectués pendant que ce Sort fonctionne.</Description>
 	</SpellDef>
-	<SpellDef name="Call Upon the Wind" area="Target individual (may be the caster)" mastery="2" element="air" range="Personal or 20'" duration="1 minute" id="call_upon_the_wind">
+	<SpellDef name="Invocation Mineure du Vent" area="Individu ciblé" mastery="2" element="air" range="Personnel ou 6m" duration="1 minute" id="call_upon_the_wind">
 		<Tags>
 			<Tag>travel</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1 minute)</Raise>
-			<Raise>Range (+5')</Raise>
+			<Raise>Durée (+1 minute)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>The winds can lift and buoy, carrying even the heaviest burden into the skies for short periods. The target of this spell gains a limited form of flight, allowing him to move through the air unimpeded. The target of the spell may make Free Move Actions, but not Simple Move Actions, and may never move more than 10' per round. Heavy winds can interfere with this movement or prevent it altogether. At the end of the spells duration, the target drifts harmlessly the ground, no matter how high he might be.</Description>
+		<Description>Les vents parviennent à soulever et transporter les charges les plus lourdes dans les airs pendant de courtes périodes de temps. La cible de ce Sort arrive à voler dans une certaine mesure, ce qui lui permet de se déplacer sans encombre dans les airs. La cible peut effectuer des Actions de Mouvement Gratuites, mais pas d'Action de Mouvement Simple, et ne peut jamais se déplacer de plus de 3m par Round. Des vents violents peuvnet freiner ce déplacement, voire l'empêcher tout à fait. À la fin de la durée de ce Sort, la cible est déposée snas encombre sur le sol, à quelque altitude qu'elle puisse se trouver alors.</Description>
 	</SpellDef>
-	<SpellDef name="Hidden Visage" area="Self" mastery="2" element="air" range="Personal" duration="5 minutes" id="hidden_visage">
+	<SpellDef name="Visage Masqué" area="Personnel" mastery="2" element="air" range="Personnel" duration="5 minutes" id="hidden_visage">
 		<Tags>
 			<Tag>illusion</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Area of Effect (another person in line of sight can be targeted by this spell by making three Raises)</Raise>
-			<Raise>Duration (+5 minutes)</Raise>
+			<Raise>Zone d'effet (ce Sort peut cibler une autre personne visible au prix de 3 Augmentations)</Raise>
+			<Raise>Durée (+5 minutes)</Raise>
 		</Raises>
-		<Description>Air kami are mischievous and capricious, and enjoy anything they perceive as a joke. You may call upon them create a subtle illusion, altering your facial features just enough that you appear to be a different person. This spell does not allow you to impersonate specific individuals, or even people radically different from you, you appear as a person of the same age, build, race, and gender. The differences are subtle, enough so that you could be mistaken for your own brother or cousin.</Description>
+		<Description>Les kami de l'Air, malicieux et capricieux, apprécient tout ce qu'ils considèrent comme une bonne plaisanterie. Vous pouvez faire appel à eux pour créer une illusion subtile et modifier suffisamment les traits de votre visage pour vous faire passer pour quelqu'un d'autre. Ce Sort ne vous permet pas d'imiter des individus spécifiques ni des personnages dont les traits changent radicalement des vôtres, mais seulement de prendre l'apparence d'une autre personne ayant le même âge, la même stature, la même race et le même sexe que vous. Les nuances sont assez subtiles pour qu'on puisse vous prendre pour votre propre frère ou cousin.</Description>
 	</SpellDef>
-	<SpellDef name="Mist of Illusion" area="10' radius" mastery="2" element="air" range="20'" duration="1 minute" id="mist_of_illusion">
+	<SpellDef name="Brumes d'Illusion" area="3m de rayon" mastery="2" element="air" range="6m" duration="1 minute" id="mist_of_illusion">
 		<Tags>
 			<Tag>craft</Tag>
 			<Tag>illusion</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Area (+5')</Raise>
-			<Raise>Duration (+1 minute)</Raise>
-			<Raise>Range (+5')</Raise>
+			<Raise>Zone (+1,5m)</Raise>
+			<Raise>Durée (+1 minute)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>With greater fluency with the kami comes the ability to craft increasingly convincing images from the stuff of the wind itself. You may create illusions of any object, individual, or image that you can imagine. These images are stationary, and they must fit within the spells area of effect, but they can be as simple or complex as desired. These illusions are visual only, with no auditory component, odors, etc.</Description>
+		<Description>Celui qui a acquis une certaine aisance avec les kami peut susciter des images de plus en plus convaincantes à partir de la substance même du vent. Vous pouvez créer une illusion représentant n'importe quel objet, individu ou image issus de votre imagination. Ces images restent immobiles, et doivent être contenues dans la zone d'effet du Sort, mais elles peuvent être aussi simples ou complexes que vous le désirez. Il s'agit uniquement d'illusions visuelles, sans composante auditive, sans odeur, etc.</Description>
 	</SpellDef>
-	<SpellDef name="Secrets on the Wind" area="20' radius" mastery="2" element="air" range="10 miles" duration="Concentration" id="secrets_on_the_wind">
+	<SpellDef name="Secrets du Vent" area="6m de Rayon" mastery="2" element="air" range="16 km" duration="Concentration" id="secrets_on_the_wind">
 		<Tags/>
 		<Raises>
-			<Raise>Area (+5' radius)</Raise>
-			<Raise>Range (+5 miles)</Raise>
+			<Raise>Zone (+1,5m)</Raise>
+			<Raise>Portée (+8km)</Raise>
 		</Raises>
-		<Description>The kami can carry whispers across an Empire, if properly entreated to do so. This spell requires you to perform a preparation ritual in order to cast it effectively. The ritual requires ten minutes of uninterrupted meditation in the area designated as the spells area of effect. Any time within the 48 hours immediately following this ritual, you may cast this spell, and overhear anything being said in the prepared area. If your concentration is disrupted, the effect ends and may not be renewed without an additional preparation ritual. Only one area may be prepared via this ritual at one time.</Description>
+		<Description>Les kami peuvent transmettre des murmures dans tout l'Empire si on les en implore de façon adéquate. Pour lancer efficacement ce Sort, il vous faut accomplir un rituel préparatoire. Celui-ci nécessite dix minutes de méditation ininterrompue dans la zone désignée comme zone d'effet. À tout moment dans les 48 heures qui suivent ce rituel, vous pouvez lancer ce Sort et entendre tout ce qui se dit dans la zone préparée. Si votre concentration est rompue, l'effet s'achève et ne peut pas être renouvelé sans un autre rituel préparatoire. On ne peut préparer qu'une zone à la fois à l'aide de ce rituel.</Description>
 	</SpellDef>
-	<SpellDef name="The Kami's Whisper" area="10' radius" mastery="2" element="air" range="50'" duration="1 round" id="the_kamis_whisper">
+	<SpellDef name="Murmure des Kami" area="Rayon de 3m" mastery="2" element="air" range="15m" duration="1 round" id="the_kamis_whisper">
 		<Tags>
 			<Tag>illusion</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Area (+5' radius)</Raise>
-			<Raise>Duration (+1 round)</Raise>
-			<Raise>Range (+5')</Raise>
+			<Raise>Zone (+1,5m)</Raise>
+			<Raise>Durée (+1 round)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>The kami of the wind can carry whispers for great distances, and can even create them if properly entreated. You can petition the kami create a false sound, either a voice or a natural sound such as an animal's growl or running water, for example. The sound can be no louder than a normal speaking voice, and cannot impersonate a specific person's voice. If used create the sound of a voice, the spell is limited to twenty words.</Description>
+		<Description>Les kami du vent peuvent transmettre de simples murmures sur de grandes distances, voire en créer si on les en prie instamment. Vous pouvez demander aux kami de créer un son illusoire, qu'il s'agisse d'une voix ou d'un bruit naturel comme celui d'un animal qui gronde ou du bruissement d'un ruisseau par exemple. Ce son ne peut être plus fort que celui d'une voix normale, et ne peut pas imiter celle d'une personne particulière. Si on s'en sert pour créer une voix, le Sort se limite à vingt mots.</Description>
 	</SpellDef>
-	<SpellDef name="Whispering Wind" area="Target individual" mastery="2" element="air" range="20'" duration="Instantaneous" id="whispering_wind">
+	<SpellDef name="Vent de Murmures" area="Individu cibré" mastery="2" element="air" range="6m" duration="Instantané" id="whispering_wind">
 		<Tags>
 			<Tag>divination</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Range (+5')</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>The air kami see very little difference between speech and thought, and can perceive both with relative ease. By comparing the two, the kami can determine if what has been spoken is true, or a lie. Unfortunately, they have notoriously short attention spans, and thus can only assess extremely recent conversations. By invoking this spell, you may determine if the last thing said by the target was true or false. The kami have no concept of personal opinion, however, and if the target truly believes what he said was true, the kami will believe it as well.</Description>
+		<Description>Pour les kami de l'Air, il n'y a guère de différence entre ce que l'on dit et ce que l'on pense, car ils perçoivent les pensées aussi facilement que les paroles. En comparant les deux, les kami peuvent déterminer si un mensonge vient d'être énoncé. Malheureusement, leur attention ne dure guère, et ils ne peuvent donc vérifier que des conversations toutes récentes. En recourant à ce Sort, vous pouvez déterminer si la dernière chose que vient de dire la cible était un mensonge ou une vérité. Les kami ne connaissent toutefois pas le concept d'opinion personnelle, et si la cible croit vraiment qu'elle venait de dire la vérité, ils en sont également persuadés.</Description>
 	</SpellDef>
-	<SpellDef name="Wolf's Proposal" area="Self" mastery="2" element="air" range="Personal" duration="10 minutes" id="wolfs_proposal">
+	<SpellDef name="Proposition du Loup" area="Personnel" mastery="2" element="air" range="Personnel" duration="10 minutes" id="wolfs_proposal">
 		<Tags>
 			<Tag>illusion</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Area (may target another with 2 Raises)</Raise>
-			<Raise>Duration (+5 minutes)</Raise>
-			<Raise>Special (+1 Honor Rank per two Raises)</Raise>
+			<Raise>Zone (Le Sort peut cibler une autre personne visible au prix de 2 Augmentations)</Raise>
+			<Raise>Durée (+5 minutes)</Raise>
+			<Raise>Special (+1 Rang d’Honneur par tranche de 2 Augmentations)</Raise>
 		</Raises>
-		<Description>This spell, crafted to initiate relations between groups, is easily twisted to nefarious purposes. It calls the kami create a subtle aura of suggestion around the caster, one that does not disguise the caster but rather causes others perceive him as slightly more benevolent than perhaps he truly is. For the duration of this spell, your Honor Rank is considered three ranks higher for the purposes of any Lore:Bushido rolls made to determine your Honor Rank.</Description>
+		<Description>Ce Sort, conçu pour faciliter les permiers contacts entre groupes et facile à pervertir, peut s'adapter à des intentions malveillantes. Il fait appel aux kami pour qu’ils créent une subtile aura autour du shugenja, laquelle ne modifie pas son apparence, mais amène ses interlocuteurs à le considérer comme plus bienveillant qu’en réalité. Pendant la durée de ce Sort, votre Rang d’Honneur est considéré comme étant de 3 Rangs supérieur à sa valeur réelle quand on tente de le découvrir au moyen d’un Jet de Connaissance: Bushido.</Description>
 	</SpellDef>
-	<SpellDef name="Be The Mountain" area="One target creature" mastery="2" element="earth" range="30'" duration="4 rounds" id="be_the_mountain">
+	<SpellDef name="Être la Montagne" area="1 créature ciblée" mastery="2" element="earth" range="9m" duration="4 rounds" id="be_the_mountain">
 		<Tags>
 			<Tag>defense</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1 Round)</Raise>
+			<Raise>Durée (+1 Round)</Raise>
 		</Raises>
-		<Description>A variant of the spell Armor of Earth, designed to protect allies, this prayer causes the Earth kami to envelop the target with their embrace, covering his skin with a stony barrier that repels physical blows. The target gains Reduction of a value equal to 5x the caster's School Rank to a maximum of 20, but cannot take Simple Move Actions for the duration of the spell (Free Move Actions are still allowed). Only a willing ally can be targeted with this spell.</Description>
+		<Description>Variante du Sort Armure de la Terre conçue pour protéger les alliés, cette prière demande aux kami de la Terre d’envelopper la cible, recouvrant sa peau d’une protection de pierre qui dévie les attaques physiques. La cible bénéficie d’une Réduction dont la valeur est égale à 5  le Rang de Maîtrise du lanceur de sort, pour un maximum de 20. Toutefois, elle ne peut entreprendre aucune Action de Mouvement Simple pendant la durée du sort (les Actions de Mouvement Gratuites restent toujours permises). Seul un allié consentant peut être la cible de ce Sort.</Description>
 	</SpellDef>
-	<SpellDef name="Earth Becomes Sky" area="One target creature" mastery="2" element="earth" range="100'" duration="Instantaneous" id="earth_becomes_sky">
+	<SpellDef name="La Terre devient le Ciel" area="1 créature ciblée" mastery="2" element="earth" range="30m" duration="Instantané" id="earth_becomes_sky">
 		<Tags>
 			<Tag>jade</Tag>
 			<Tag>thunder</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Damage (+1k0)</Raise>
-			<Raise>Targets (+1 target)</Raise>
-			<Raise>Special (make boulders Jade with 2 Raises)</Raise>
+			<Raise>Dommages (+1g0)</Raise>
+			<Raise>Cibles (+1 cible)</Raise>
+			<Raise>Special (produit des rochers imprégnés du pouvoir du jade au prix de 2 Augmentations)</Raise>
 		</Raises>
-		<Description>This spell summons up several huge boulders from the earth, and hurls them through the air to unerringly strike one (or more) target creatures. The target struck by these boulders suffers damage with a DR equal the caster's Earth rank. If the caster strikes multiple targets, the DR is reduced by 1k1 for each additional target, to a minimum of 1k1 damage per target. These boulders are made of normal, mundane stone, and thus cannot normally bypass Reduction or Invulnerability, but a powerful caster can infuse the boulders with the power of Jade.</Description>
+		<Description>Ce Sort invoque plusieurs énormes roches qui surgissent de terre pour être projetés dans les airs et frapper infailliblement une (ou plusieurs) créatures. La victime subit des dommages dont la VD égale l'Anneau de Terre du lanceur de sort. Si celui-ci frappe plusieurs cibles, la VD est réduite de 1g1 pour chaque cible. Ces roches composées de pierre ordinaire, ne peuvent donc pas outrepasser la Réduction ou l’Invulnérabilité, mais un puissant lanceur de sort peut les imprégner du pouvoir du Jade au prix de 2 Augmentations.</Description>
 	</SpellDef>
-	<SpellDef name="Embrace Of Kenro-ji-jin" area="One target creature" mastery="2" element="earth" range="Personal or Touch" duration="1 hour" id="embrace_of_kenrojijin">
+	<SpellDef name="Accolade de Kenro-ji-jin" area="1 créature ciblée" mastery="2" element="earth" range="Personnel/Contact" duration="1 heure" id="embrace_of_kenrojijin">
 		<Tags>
 			<Tag>travel</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1/2 hour)</Raise>
+			<Raise>Durée (+1/2 heure)</Raise>
 		</Raises>
-		<Description>This spell allows the target (who can be the caster or one other person) to literally dive into the ground, which becomes as clear and easy to traverse as water for him. He can see for a distance of 100 yards through the Earth, and can move through it in any direction as easily as though he were in normal air. The target can see through the edge of the Earth into the normal world, but he cannot attack, cast spells, speak, hear, or otherwise interact with those outside the Earth unless he emerges from the ground (at which point the spell immediately ends). If the spell ends while the target is still underground, the Earth spirits are offended by the Target's continued presence, and immediately expel him into the nearest open air, wherever that might be.</Description>
+		<Description>Ce Sort permet à la cible (qui peut être le lanceur de sort ou une autre personne) de littéralement plonger dans le sol, qui devient pour elle aussi transparent et facile à traverser que de l'eau. Elle peut voir à une distance de 30m à travers la terre et s'y déplacer dans n'importe quelle direction comme dans un sol intangible. La cible peut voir le monde normal à travers la terre, mais elle ne peut attaquer, lancer de Sorts, parler, entendre ou interragir de quelque façon que ce soit avec ceux qui se trouvent hors de la terre à moins qu’elle n’en émerge elle-même (mettant immédiatement fin aux effets du Sort). Si le Sort s’achève tandis que la cible se trouve toujours sous terre, les esprits de la Terre s’offensent de sa présence et l’expulsent immédiatement à l’air libre, à l’endroit le plus proche.</Description>
 	</SpellDef>
-	<SpellDef name="Force Of Will" area="One target" mastery="2" element="earth" range="50'" duration="2 rounds" id="force_of_will">
+	<SpellDef name="Volonté Abrosule" area="1 cible" mastery="2" element="earth" range="15m" duration="2 rounds" id="force_of_will">
 		<Tags>
 			<Tag>battle</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1 round, maximum 4 Rounds duration)</Raise>
+			<Raise>Durée (+1 round, maximum 4 Rounds)</Raise>
 		</Raises>
-		<Description>This spell infuses the target with an intense resistance to pain and death, as the Earth kami bolster his will to live to superhuman levels. He is able to shrug off the pain and shock of his wounds, even continuing in the face of lethal injuries for a short time. For the duration of this spell, the target is immune to all Wound Rank penalties and effects - including the effect of being dead if the Out rank is completely filled. When the spell expires, however, the full effects of any Wounds apply immediately - thus, this spell typically affords either a brief chance to be healed before it is too late, or the chance to wage a final battle in the face of certain death.</Description>
+		<Description>Ce Sort confère à la cible une formidable résistance à la douleur et même à la mort, les kami de la Terre lui conférant un instinct de survie surhumain. Elle peut alors faire fi de la douleur et du choc physique induits par ses blessures, continuant à agir un court instant même après le coup fatal. Pendant la durée de ce Sort, la cible est immunisée contre tous les effets et malus issus des Rangs de Blessure, et ne meurt même pas si le Rang Hors de Combat est complet. Toutefois, lorsque le Sort s’achève, les effets de toutes ses Blessures s’appliquent immédiatement. Par conséquent, ce Sort fournit généralement un bref délai permettant d’être soigné avant qu’il ne soit trop tard, ou la possibilité de livrer un dernier combat en sachant que l’on va y laisser la vie.</Description>
 	</SpellDef>
-	<SpellDef name="Grasp Of Earth" area="One target" mastery="2" element="earth" range="50'" duration="5 rounds" id="grasp_of_earth">
+	<SpellDef name="Emprise de la Terre" area="1 cible" mastery="2" element="earth" range="15 m" duration="5 rounds" id="grasp_of_earth">
 		<Tags/>
 		<Raises>
-			<Raise>Duration (+1 Round)</Raise>
-			<Raise>Range (5')</Raise>
-			<Raise>Targets (+1 Target per 2 Raises)</Raise>
+			<Raise>Durée (+1 Round)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
+			<Raise>Cibles (+1 Cible par tranche de 2 Augmentations)</Raise>
 		</Raises>
-		<Description>This spell causes the Earth kami to reach up and seize hold of the target, often taking the form of a massive hand or claw which grips the unfortunate creature in stony digits. The target is rendered near-immobile, able to move only 3' per round as a Simple Move Action, and unable to move at all with a Free Move Action. The target may break free by spending a Complex Action and rolling Raw Strength at a TN equal to 5x the caster's Earth.</Description>
+		<Description>Ce Sort pousse les kami de la Terre à surgir pour s’emparer de la cible, souvent sous la forme d’une énorme main ou griffe qui saisit l’infortunée victime de ses doigts de pierre. La cible se retrouve quasiment immobilisée: elle ne peut se déplacer que de 1,5m par Round au prix d’une Action de Mouvement Simple et ne peut bouger à l’aide d’une Action de Mouvement Gratuite. La cible peut se libérer au prix d’une Action Complexe en effectuant un jet de Terre contre un ND égal à 5 x l’Anneau de Terre du lanceur de sort.</Description>
 	</SpellDef>
-	<SpellDef name="Hands Of Clay" area="Self" mastery="2" element="earth" range="Personal" duration="10 minutes" id="hands_of_clay">
+	<SpellDef name="Mains d’Argile" area="Personnel" mastery="2" element="earth" range="Personnel" duration="10 minutes" id="hands_of_clay">
 		<Tags>
 			<Tag>travel</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+5 minutes)</Raise>
+			<Raise>Durée (+5 minutes)</Raise>
 		</Raises>
-		<Description>This spell infuses Earth spirits into the hands and feet of the caster, allowing them to merge with the Earth found in wood, earth, and stone. This allows the caster to walk and climb along sheer surfaces, including walls and cliffs, at half his normal movement speed (rounded up). He can even hang from ceilings and move along them, although in that case he can only move 3' with a Simple Action. When the spell ends, the effect concludes without warning, possibly leading to a painful fall.</Description>
+		<Description>Ce sort imprègne les mains et les pieds du lanceur de sort des esprits de la Terre, leur permettant de fusionner avec l’élément Terre présent dans le bois, la terre et la roche. Ceci lui permet de marcher et d’escalader des surfaces abruptes, y compris les murs et les falaises, à la moitié de sa vitesse de déplacement ordinaire (arrondi au supérieur). Il peut même se suspendre aux plafonds et se déplacer tout le long, bien que dans ce cas il ne se déplace que de 1,5m au prix d'une Action Simple. Quand le Sort s’achève, l’effet prend fin sans avertissement, provoquant parfois une chute douloureuse.</Description>
 	</SpellDef>
-	<SpellDef name="The Mountain's Feet" area="One target" mastery="2" element="earth" range="Personal or 20'" duration="1 hour" id="the_mountains_feet">
+	<SpellDef name="Stabilité de la Montagne" area="1 cible" mastery="2" element="earth" range="Personnel ou 6m" duration="1 heure" id="the_mountains_feet">
 		<Tags>
 			<Tag>defense</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1/2 hour)</Raise>
-			<Raise>Targets (+1 per two Raises)</Raise>
+			<Raise>Durée (+1/2 heure)</Raise>
+			<Raise>Cibles (+1 par tranche de 2 Augmentations)</Raise>
 		</Raises>
-		<Description>This spell fortifies the target by rooting his feet the stone and soil beneath, allowing him to shrug off anything that might separate him from the much of Earth. The target gains +3k0 to resist all Knockdown maneuvers, and any spell which seeks to knock down the target, lift him into the air, or otherwise break his connection the Earth must win a Contested roll of the spells Element against the caster's Earth.</Description>
+		<Description>Ce ort renforce sa cible en enracinant ses pieds dans la terre et la roche, lui permettant d'ignorer tout ce qui serait susceptible de mettre un terme à son contact avec le sol. La cible bénéficie d'un bonus de +3g0 pour résister à toutes les Manœuvres de Renversement. Par ailleurs, pour la jeter à terre, la soulever dans les airs ou rompre d’une manière ou d’une autre son contact avec la Terre par l’intermédiaire d’un sort, il faut tout d’abord remporter un jet d’Opposition entre l’ĺément du Sort en question et l’Anneau de Terre du lanceur de Stabilité de la Montagne.</Description>
 	</SpellDef>
-	<SpellDef name="Wholeness Of The World" area="One target creature" mastery="2" element="earth" range="Personal or 20'" duration="10 minutes" id="wholeness_of_the_world">
+	<SpellDef name="Unité du Monde" area="1 créature ciblée" mastery="2" element="earth" range="Personnel ou 6m" duration="10 minutes" id="wholeness_of_the_world">
 		<Tags>
 			<Tag>defense</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1 minute)</Raise>
-			<Raise>Range (+5')</Raise>
-			<Raise>Targets (+1 per two Raises)</Raise>
+			<Raise>Durée (+1 minute)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
+			<Raise>Cibles (+1 par tranche de 2 Augmentations)</Raise>
 		</Raises>
-		<Description>This spell infuses the target with the strength of Earth to such a degree that his Rings and Traits become wholly resistant to any effort to change them. Any physical or magical effect which would raise or lower his Traits or Rings is completely ineffective for the duration of those spell, as the Earth kami normally rebuff any such efforts to alter the target's Elemental balance.</Description>
+		<Description>Ce Sort transmet à la cible la force de la Terre afin que ses Anneaux et Traits deviennent imperméables à toute tentative visant à les modifier. Tout effet magique ou prysique accroissant ou réduisnat les Traits ou les Anneaux de la cible se montre totalement inefficace pendant la durée de ce sort, car les kami de la Terre s’opposent fermement à ces efforts visant à altérer l’équilibre élémentaire de la cible.</Description>
 	</SpellDef>
 	<SpellDef name="Disrupt The Aura" area="Target person or creature" mastery="2" element="fire" range="50'" duration="24 hours" id="disrupt_the_aura">
 		<Tags/>
