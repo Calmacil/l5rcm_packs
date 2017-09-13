@@ -613,171 +613,171 @@
 		</Raises>
 		<Description>Ce Sort transmet à la cible la force de la Terre afin que ses Anneaux et Traits deviennent imperméables à toute tentative visant à les modifier. Tout effet magique ou prysique accroissant ou réduisnat les Traits ou les Anneaux de la cible se montre totalement inefficace pendant la durée de ce sort, car les kami de la Terre s’opposent fermement à ces efforts visant à altérer l’équilibre élémentaire de la cible.</Description>
 	</SpellDef>
-	<SpellDef name="Disrupt The Aura" area="Target person or creature" mastery="2" element="fire" range="50'" duration="24 hours" id="disrupt_the_aura">
+	<SpellDef name="Perturbation de l'Aura" area="Personne ou créature ciblée" mastery="2" element="fire" range="15m" duration="24 heures" id="disrupt_the_aura">
 		<Tags/>
 		<Raises>
-			<Raise>Duration (+12 hours per Raise)</Raise>
+			<Raise>Durée (+12 heures par Augmentation)</Raise>
 		</Raises>
-		<Description>Anyone whose elements are out of balance will feel the effects, and this spell creates this condition deliberately by aggravating the Fire present in the target's body. While the spell is in effect, the target cannot be healed by magical means. Magical spells, items, or Techniques that attempt to restore Wounds to the target automatically fail. (Mundane wound treatment with the Medicine skill will still be effective.) The target may realize something is physically wrong with him but cannot find out what is happening without the help of a shugenja - casting Sense (Fire will show the presence of many excited Fire spirits within the target.</Description>
+		<Description>Un individu ressent les effets d’un déséquilibre des éléments en lui. Ce Sort suscite délibérément ce déséquilibre en renforçant exagérément l’élément Feu présent dans le corps de la cible. Tant que le Sort fait effet, la cible ne peut plus être guérie par magie. Les Sorts, objets ou Techniques magiques qui tentent de redonner des Blessures à la cible échouent automatiquement, mais les traitements ordinaires (la Compétence Médecine par exemple) fonctionnent toujours. La cible peut réaliser qu’elle subit un déséquilibre physique, mais elle ne peut découvrir de quoi il s’agit exactement sans l’aide d’un shugenja: en lençant Sensation (Feu), on décèle automatiquement la présence d’esprits du Feu excités dans son corps.</Description>
 	</SpellDef>
-	<SpellDef name="Enticing Dance Of The Flame" area="20' radius" mastery="2" element="fire" range="50'" duration="2 rounds" id="enticing_dance_of_the_flame">
+	<SpellDef name="Fascinante Danse de la Flamme" area="Rayon de 6m" mastery="2" element="fire" range="15m" duration="2 rounds" id="enticing_dance_of_the_flame">
 		<Tags/>
 		<Raises>
-			<Raise>Duration (+1 round)</Raise>
+			<Raise>Durée (+1 round)</Raise>
 		</Raises>
-		<Description>A more potent version of The Fires That Cleanse, this spell keeps the Fire kami under tighter control and persuades them to remain present for longer. If the spell is cast successfully, Fire kami erupt into a violent, ferocious dance at a location of your choice, igniting that area into flames. Every target in the area takes 3k2 Wounds on the Round the spell takes effect. At the beginning of each subsequent Round, if the spell is still active, every target still in the affected area takes an additional 2k1 Wounds.</Description>
+		<Description>Version plus puissante de Feux de la Destruction, ce Sort exerce un contrôle plus étroit sur les kami du Feu et les persuade de demeurer plus longtemps. Si le lancement du sort s’effectue avec succès, les kami du Feu se livrent à une danse effrénée et féroce en un lieu de votre choix, incendiant tout sur leur passage. Chaque cible située dans la zone d’effet subit 3g2 Blessures quand le Sort prend effet. Au début de chaque Round, par la suite, si le Sort est encore actif, chaque cible qui se trouve toujours dans la zone d’effet subit 2g1 Blessures supplémentaires.</Description>
 	</SpellDef>
-	<SpellDef name="Hurried Steps" area="Self" mastery="2" element="fire" range="Personal" duration="2 rounds (see script description)" id="hurried_steps">
+	<SpellDef name="Pas Précipités" area="Personnel" mastery="2" element="fire" range="Personnel" duration="2 rounds (see script description)" id="hurried_steps">
 		<Tags/>
 		<Raises>
-			<Raise>None</Raise>
+			<Raise>Aucune</Raise>
 		</Raises>
-		<Description>Fire is the element of thought, and thought is swift indeed. You draw upon the speed of the Fire kami to aid you in the next spell you cast. The casting time of the next Fire spell you cast is reduced by 4 Rounds. If the next spell is Mastery Level 3 or lower, it casts instantaneously as a Simple Action. If you do not begin casting the new spell within the next 2 Rounds, however, the benefit of Hurried Steps elapses.</Description>
+		<Description>Le Feu incarne l’élément des pensées, et il n’est rien de plus vif qu’une pensée. Vous mettez à profit la vivacité des kami du Feu pour vous aider à lancer votre prochain Sort. Le temps d’incantation du prochain Sort du Feu que vous lancez est réduit de 4 Rounds. S’il s’agit d’un Sort dont le Niveau de Maîtrise est inférieur ou égal à 3, vous pouvez le lancer instantanément au prix d’une Action Simple. Cependant, si vous ne commencez pas à lancer le nouveau Sort dans une période de 2 Rounds, l’avantage conféré par Pas Précipités disparaît.</Description>
 	</SpellDef>
-	<SpellDef name="Mental Quickness" area="One item" mastery="2" element="fire" range="Touch" duration="10 minutes" id="mental_quickness">
+	<SpellDef name="Vivacité Mentale" area="1 objet" mastery="2" element="fire" range="Contact" duration="10 minutes" id="mental_quickness">
 		<Tags/>
 		<Raises>
-			<Raise>None</Raise>
+			<Raise>Aucune</Raise>
 		</Raises>
-		<Description>Fire kami can be imbued into physical objects, allowing them to remain present for longer periods of time. Shugenja have devised many ways to use this technique to aid themselves and others. This spell, one of the most basic of this kind, imbues a material item with the cleverness and wit of fire. Anyone who carries that item has their Intelligence Trait increased by 3 for the duration of the spell.</Description>
+		<Description>Les kami du Feu peuvent imprégner des objets physiques, ce qui leur permet de rester présents plus longtemps. Les shugenja ont trouvé bien des manières de mettre à profit cette technique pour eux ou pour autrui. Ce Sort, l’un des plus élémentaires de ce type, imprègne un matériau de l’intellect et de la lucidité du Feu. Quiconque porte cet objet voit son Rang d’Intelligence augmenter de 3 pour la durée du Sort.</Description>
 	</SpellDef>
-	<SpellDef name="Relentless Heat" area="One armor" mastery="2" element="fire" range="Touch" duration="10 Rounds" id="relentless_heat">
+	<SpellDef name="Chaleur Implacable" area="1 armure" mastery="2" element="fire" range="Contact" duration="10 Rounds" id="relentless_heat">
 		<Tags>
 			<Tag>defense</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+2 Rounds)</Raise>
+			<Raise>Durée (+2 Rounds)</Raise>
 		</Raises>
-		<Description>This spell is designed to protect bushi by infusing a Fire kami into their armor. The spell targets one suit of armor, which glows with the strength of the merciless desert sun. Any opponent who attempts to strike the person wearing the armor, whether or not the attack hits, is immediately considered to be Fatigued until the beginning of their next Tum. The penalties apply to the attack roll that triggered the spell, and any attackers in the Full Attack Posture immediately assume the Attack Posture instead. This spell has no effect on ranged attacks or spells that target the wearer of the armor.</Description>
+		<Description>Ce Sort est conçu pour protéger les bushi en imprégnant leur armure d’un kami du Feu. Le Sort prend pour cible une armure qui se met à étinceler comme si elle reflétait l’impitoyable soleil du désert. Tout adversaire qui tente de frapper la personne portant cette armure, que l’attaque réussisse ou non, devient Fatiguée jusqu’au début de son prochain tour de jeu. Les malus s’appliquent au jet d’attaque qui a déclenché le Sort, et tout assaillant ayant adopté la Posture d’Assaut prend la Posture d’Attaque à la place. Ce Sort n’æ aucun effet sur les attaques ou les Sorts qui prennent pour cible le porteur de l’armure à distance.</Description>
 	</SpellDef>
-	<SpellDef name="Tail Of The Fire Dragon" area="Self" mastery="2" element="fire" range="Personal" duration="4 rounds" id="tail_of_the_fire_dragon">
+	<SpellDef name="Queue du Dragon de Feu" area="Personnel" mastery="2" element="fire" range="Personnel" duration="4 rounds" id="tail_of_the_fire_dragon">
 		<Tags/>
 		<Raises>
-			<Raise>Duration (+1 round)</Raise>
+			<Raise>Durée (+1 round)</Raise>
 		</Raises>
-		<Description>This spell invokes several Fire kami to form a whip-like tendril that extends from the caster's hand. The tendril of flame will not burn you, since the kami are grateful for the opportunity to burn others at your command. You may use this tendril to strike enemies as far as 30' away, extending it out and back with blinding speed. Your attack roll with the tendril is equal to your Agility + (twice your School Rank), keeping your Agility. The tendril has a DR equal to your Fire Ring.</Description>
+		<Description>Ce Sort invoque plusieurs kami du feu qui forment un tentacule de flammes sortant de votre main. Il ne vous brûle pas, car les kami vous sont reconnaissants de leur fournir une occasion de brûler autrui sur commande. Vous pouvez vous servir de ce fouet de feu pour frapper des ennemis dans un rayon de 9m: lal angue de feu s’étend alors avec une stupéfiante vivacité. Votre jet d’attaque en utilisant le fouet de feu est égal à votre Rang d’Agilité + (le double de votre Rang de Maîtrise), en gardant votre Agilité. La VD du fouet est égale à votre Anneau du Feu.</Description>
 	</SpellDef>
-	<SpellDef name="The Fires From Within" area="One target" mastery="2" element="fire" range="100'" duration="Instantaneous" id="the_fires_from_within">
+	<SpellDef name="Feu Intérieur" area="1 cible" mastery="2" element="fire" range="30m" duration="Instantané" id="the_fires_from_within">
 		<Tags/>
 		<Raises>
-			<Raise>Target (+1 target per two Raises)</Raise>
+			<Raise>Cible (+1 cible par tranche de 2 Augmentations)</Raise>
 		</Raises>
-		<Description>Probably the most widely known and recognized offensive spell in the element of Fire. This prayer has been in use by Rokugani shugenja since the very earliest days of the Empire. You summon Fire kami to form an orb of flame that hovers in your palm for a moment before streaking toward the target. The sphere gains momentum and size until it hits its target, making it quite spectacular visually. The spell has a DR equal to your Fire Ring.</Description>
+		<Description>Ce Sort est sans doute le mieux connu et le plus notoirement offensif de l’élément Feu. Les shugenja rokugani se servent de cette prière depuis les premiers jours de l’Empire. Vous invoquez un kami du Feu qui prend la forme d’un orbe de flammes en suspension au-dessus de votre paume avant de s’envoler vers sa cible. La célébrité et la taille de la sphère augmentent jusqu’à ce qu’elle touche sa cible, ce qui en fait un Sort particulièrement spectaculaire. Sa VD est égale à votre Anneau du Feu.</Description>
 	</SpellDef>
-	<SpellDef name="Ward Of Purity" area="15' radius from the object touched" mastery="2" element="fire" range="Touch" duration="1 day" id="ward_of_purity">
+	<SpellDef name="Glyphe de Pureté" area="Rayon de 4,5m autour de l’œbjet touché" mastery="2" element="fire" range="Contact" duration="1 jour" id="ward_of_purity">
 		<Tags>
-			<Tag>wards</Tag>
+			<Tag>glyphes</Tag>
 		</Tags>
 		<Raises>
-			<Raise>None</Raise>
+			<Raise>Aucune</Raise>
 		</Raises>
-		<Description>Although Earth is the traditional method of opposing evil forces like the Shadowlands Taint, the spirits of Fire can also be invoked to purge and destroy such spiritual abominations. This spell binds a Fire kami into a specific location which it protects against the forces of evil. Casting the spell requires inscribing elaborate kanji on a flat surface in chalk or ink, and takes one minute of concentrated effort, after which the Spell Casting Roll must be made. Once the Ward of Purity is activated and the power of the kami is fully engaged, however, the kami within the inscription protects the area against the influence of the Shadowlands or the Lying Darkness. Persons or creatures with at least 1 Shadowlands Taint Rank, or who are under the control of the Lying Darkness, must make a successful Contested Willpower Roll against you in order to enter the Ward's area of effect; you gain a +5 bonus to this roll. In addition, those creatures who successfully enter the area suffer extreme pain, as the power of the ward burns their very essence. Their bodies ignite and they suffer Wounds equal to the total of your Fire Ring + insight Rank each Round they remain within the area of effect. Spells and missiles are unaffected by Ward of Purity. The object upon which the ward is inscribed must remain immobile and the inscription must remain dearly visible at all times, or else the Ward is dispelled. If overlapping Wards of Purity are present, their effects do not stack.</Description>
+		<Description>Bien que l’on recoure généralement à la Terre pour affronter les forces démoniaques comme la Souillure de l’Outremonde, les esprits du Feu peuvent également être invoqués pour purger et détruire ce genre d’abominations spirituelles. Ce Sort lie un kami du Feu à un lieu spécifique qu’il protège contre les forces du mal. Pour le lancer, il faut inscrire un kanji complexe sur une surface plane avec de la craie ou de l’encre, ce qui prend une minute d’effort et de concentration, après quoi on effectue un Jet d’Incantation. Une fois le Glyphe de Pureté activé et lepouvoir des kami plainement engagé, ceux-ci restent présents dans l’inscription et protègent la zone d’effet contre l’influence de l’Outremonde ou de l’Ombre Rampante. Les individus ou les créatures dotés d’au moins 1 Rang de Souillure de l’Outremonde, ou sous le contrêle de l’Ombre Rampante, doivent effectuer un Jet d’opposition de Volonté contre vous pour pénétrer dans la zone d’effet du Sort. Vous bénéficiez d’un bonus de +5 lors de ce jet. De plus, les créatures qui parviennent à entrer dans la zone subissent une immense douleur, car le pouvoir du Glyphe brûle leur essence même. Leur corps prend feu et elles subissent un nombre de Blessures égal à votre total d’Anneau du Feu + Rang de Réputation à chaque Round qu’elles y passent. Le Glyphe de Pureté n’æffecte pas les Sorts et les projectiles. L’objet sur lequel le glyphe a été inscrit doit rester immobile, et l’inscription clairement visible à tout moment. Dnas el cas contraire, il se dissipe. Si plusieurs Glyphes de Pureté se chevauchent et que leurs zones d’effet se recouvrent les unes les autres, leurs effets de se cumulent pas.</Description>
 	</SpellDef>
-	<SpellDef name="Altering The Course" area="Self" mastery="2" element="void" range="Personal" duration="1 minute" id="altering_the_course">
+	<SpellDef name="Altérer le Destin" area="Personnel" mastery="2" element="void" range="Personnel" duration="1 minute" id="altering_the_course">
 		<Tags/>
 		<Raises>
-			<Raise>Duration (+1 minute)</Raise>
+			<Raise>Durée (+1 minute)</Raise>
 		</Raises>
-		<Description>Ishiken have a much greater capacity to draw upon the Void than others, and may do it consciously rather than unconsciously. You may spend multiple Void Points on any roll made within the duration of this spell. It still must be a roll on which the expenditure of Void Points is allowable (no damage rolls may be augmented via this spell, for example.</Description>
+		<Description>Les ishiken parviennent mieux que quiconque à puiser dans le Vide; ils le font délibérément et non inconsciemment. Vous pouvez dépenser plusieurs Points de Vide pour n’porte quel jet de dé effectué pendant la durée de ce Sort, à condition que l’utilisation de Points de Vide soit permise lors de l’action entreprise (par exemple, aucun jet de dommages ne peut être amélioré par ce Sort).</Description>
 	</SpellDef>
-	<SpellDef name="Drink Of Your Essence" area="One target individual" mastery="2" element="void" range="30'" duration="Instantaneous" id="drink_of_your_essence">
+	<SpellDef name="Boire l’Essence de l’Être" area="1 individu ciblé" mastery="2" element="void" range="9m" duration="Instantané" id="drink_of_your_essence">
 		<Tags/>
 		<Raises>
-			<Raise>Range (+5')</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>As an ishiken grows more powerful, he can gain more information from examining an individual's pattern within the Void. You learn a great deal of information about the target of this spell, including his individual Rings (but not Traits), his current Wound penalties, and a one word summation of his present mood ("hostile, "sorrowful," "confused," etc.).</Description>
+		<Description>À mesure qu’un ishiken devient plus puissant, il peut obtenir plus d’informations en examinant les liens qu’entretient un individu avec le Vide. Vous apprenez beaucoup de choses sur la cible de ce sort, y compris la valeur de tous ses Anneaux (mais pas de ses Traits), son malus du aux Blessures actuel ainsi qu’un mot résumant son humeur immédiate («hostile», «triste», «perturbé», etc).</Description>
 	</SpellDef>
-	<SpellDef name="False Whispers" area="One target individual" mastery="2" element="void" range="30'" duration="1 minute" id="false_whispers">
+	<SpellDef name="Murmures Fallacieux" area="1 individu ciblé" mastery="2" element="void" range="9m" duration="1 minute" id="false_whispers">
 		<Tags/>
 		<Raises>
-			<Raise>None</Raise>
+			<Raise>Aucune</Raise>
 		</Raises>
-		<Description>Mingling the Void of two beings, even for just a moment, can lead to one of the two being manipulated if he is not prepared for it. The target of this spell will repeat the next sentence you say, verbatim, without any foreknowledge of what he is doing. They speak the words in their own normal voice, regardless of how you speak it. This effect will not allow others to cast spells, even if you have them recite a portion of a spell. This spell only allows the effect once, the first time you speak a single sentence during the duration of the spell.</Description>
+		<Description>Lorsque le Vide de deux individus se mélange, ne serait-ce qu’un instant, l’un des deux peut être facilement manipulé s’il n’y est pas préparé. La cible de ce Sort répète la dernière phrase que vous venez de prononcer, mot pour mot, sans s’y attendre le moins du monde. Elle parle avec sa voix ordinaire, quelle que soit la façon dont vous avez prononcé la phrase. Cet effet ne permet pas à quelqu’un d’autre de lancer un Sort pour vous, même si vous venez de réciter une incantation. L’effet de ce Sort ne se produiq quune seule fois, à la première phrase que vous énoncez pendant la durée du Sort.</Description>
 	</SpellDef>
-	<SpellDef name="Reach Through The Void" area="Target object, up to five pounds in weight" mastery="2" element="void" range="50'" duration="Instantaneous" id="reach_through_the_void">
+	<SpellDef name="Main du Vide" area="Objet ciblé pesant 2,5kg max" mastery="2" element="void" range="15m" duration="Instantané" id="reach_through_the_void">
 		<Tags/>
 		<Raises>
-			<Raise>Area (+1 pound per two Raises)</Raise>
-			<Raise>Range (+5')</Raise>
+			<Raise>Zone d’effet (+500g par tranche de 2 Augmentations)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>All things, both living and un-living, exist within the Void, and can be touched through it. You can manipulate items through the Void, moving them without touching them. These items are small, usually only up to only five pounds, although a powerful shugenja can raise enough to move somewhat heavier items.</Description>
+		<Description>Les êtres vivants et le choses inanimées coexistent au sein du Vide, et on peut les y atteindre. Vous pouvez manipuler des objets par l’intermédiaire du Vide et les déplacer sans les toucher. Il s’agit de petits objets ne pesant généralement pas plus de 2,5kg, mais un puissant shugenja peut déclarer assez d’Augmentatinos pour en soulever de plus lourds.</Description>
 	</SpellDef>
-	<SpellDef name="Severed From The Stream" area="One target individual" mastery="2" element="void" range="25'" duration="5 rounds" id="severed_from_the_stream">
+	<SpellDef name="Isolé du Flux" area="1 individu ciblé" mastery="2" element="void" range="7,5m" duration="5 rounds" id="severed_from_the_stream">
 		<Tags/>
 		<Raises>
-			<Raise>Duration (+1 round)</Raise>
-			<Raise>Range (+5')</Raise>
+			<Raise>Durée (+1 round)</Raise>
+			<Raise>Portée (+1,5m)</Raise>
 		</Raises>
-		<Description>Talented ishiken can rob others of their ability to tap into the Void, if only temporarily. If this spell is successful, the target must succeed at a Contested Void Roll against you before they are able to spend any Void Points. This roll does not count as an action for the target, and they must succeed at only one Contested Roll per turn, even if they are spending multiple Void Points per turn as a result of a Technique or other ability.</Description>
+		<Description>Les ishiken talentueux peuvent priver temporairement autrui de sa capacité à puiser dans le Vide. Si le Sort est lancé avec succès, la cible doit réussir un jet d’Opposition de Vide contre vous avant de pouvoir dépenser le moindre Ponit de Vide. Ce jet de dé ne compte pas comme une action pour la cible, qui ne doit réussir qu’un Jet d’Opposition par tour, même si elle utilise plusieurs Points de Vide au même tour pour déclencher une Technique ou quelque autre capacité dont elle dispose.</Description>
 	</SpellDef>
-	<SpellDef name="The Empty Voice" area="Self" mastery="2" element="void" range="Personal" duration="5 minutes" id="the_empty_voice">
+	<SpellDef name="La Voix du Silence" area="Personnel" mastery="2" element="void" range="Personnel" duration="5 minutes" id="the_empty_voice">
 		<Tags/>
 		<Raises>
-			<Raise>None</Raise>
+			<Raise>Aucune</Raise>
 		</Raises>
-		<Description>Drawing on the essence of everything allows an ishiken to invoke the kami with far greater ease than normal. For the duration of this spell, you may cast spells of other elements without speaking your prayers aloud. This applies only to spells of equal or lower Mastery Level (any spell of Mastery Level l or 2).</Description>
+		<Description>En puisnat à la source même de toute chose, les ishiken peuvent invoquer les kami avec une déconcertante facilité. Pendant la durée de ce Sort, vous pouvez lancer des Sorts d’autres éléments sans prononcer vos prières à haute voix. Ceci ne s’æpplique qu’aux Sorts ayant un Niveau de Maîtrise inférieur ou égal à celui-ci (c’est-à-dire égal à 1 ou 2).</Description>
 	</SpellDef>
-	<SpellDef name="Cloak Of The Miya" area="Self" mastery="2" element="water" range="Personal" duration="5 rounds" id="cloak_of_the_miya">
+	<SpellDef name="Cape des Miya" area="Personnel" mastery="2" element="water" range="Personnel" duration="5 rounds" id="cloak_of_the_miya">
 		<Tags>
 			<Tag>defense</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1 round)</Raise>
+			<Raise>Durée (+1 round)</Raise>
 		</Raises>
-		<Description>You wrap yourself in the protective embrace of the wave. Your Armor TN is increased by an amount equal to your Water Ring plus your School Rank for the duration of this spell.</Description>
+		<Description>Vous vous drapez d’un voile d’Eau protecteur. On ajoute à votre ND d’Armure le total de votre Anneau d’Eau plus votre Rang de Maîtrise pendant toute la durée du Sort.</Description>
 	</SpellDef>
-	<SpellDef name="Inari's Blessing" area="Created sustenance" mastery="2" element="water" range="Personal" duration="Instantaneous" id="inaris_blessing">
+	<SpellDef name="Bénédiction d’Inari" area="Nourriture et boisson créées" mastery="2" element="water" range="Personnel" duration="Instantané" id="inaris_blessing">
 		<Tags>
 			<Tag>craft</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Special (Enough food for one additional person per Raise)</Raise>
+			<Raise>Special (Assez de nourriture pour une personne supplémentaire par Augmentation)</Raise>
 		</Raises>
-		<Description>Inari is the Fortune of Rice, and one of the most beloved of all divine entities throughout the Empire. This spell invokes Inari's blessing, and creates nourishing food and drink at your command. This spell generates enough food and drink to sustain a number of individuals equal to your School Rank + 1 for one day. Without Raises, this food is bland but sustaining, such as unflavored rice and water, but with Raises, you can increase the quality of the food to seafood or tea at the GM's discretion. The TN to cast this spell is doubled when in the Shadow lands.</Description>
+		<Description>Inari, la Fortune du Riz, reste l’une des entités divines les plus chéries dans tout l’Empire. Ce Sort invoque ses bienfaits pour créer de la nourriture et de la boisson sur commande. Il en génère assez pour sustenter un nombre d’individus égal à votre Rang de Maîtrise + 1 pendant une journée. Sans Augmentations, la nourriture se révèle fade mais nourrissante, comme du riz sans accommodement et de l’eau, mais des Augmentations permettent d’améliorer la qualité des mets juqu’à obtenir des fruits de mer et du thé, à la discrétion du MJ. Le ND de ce Sort est doublé quand on le lance dans l’Outremonde.</Description>
 	</SpellDef>
-	<SpellDef name="Reflective Pool" area="Body of water / target location" mastery="2" element="water" range="10 miles" duration="5 minutes" id="reflective_pool">
+	<SpellDef name="Bassin Réfléchissant" area="Étendue d’eau / Lieu ciblé" mastery="2" element="water" range="16km" duration="5 minutes" id="reflective_pool">
 		<Tags>
 			<Tag>divination</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Duration (+1 minute)</Raise>
-			<Raise>Range (+10 miles)</Raise>
+			<Raise>Durée (+1 minute)</Raise>
+			<Raise>Portée (+16km)</Raise>
 		</Raises>
-		<Description>The inscrutable knowledge of Water is a great boon to those who know the means by which it can be invoked. You may stare into a body of water, which may be as small as a puddle, and through it view a familiar location as if you were present, although you can only see what is taking place, not hear it. In order for a location to be familiar to you, you must either have spent a great deal of time there (your home, the dojo, a preferred temple, etc.), or have spent a minimum of ten minutes in meditation at the location. Any body of water can be used for this spell, but since the visions imparted are visual images depicted will be clearer with larger bodies.</Description>
+		<Description>L’insondable connaissance de l’Eau est un don extraordinaire pour ceux qui savent comment l’invoquer. Vous pouvez scruter une étendue d’eau, qui n’a pas besoin d’être plus vaste qu’une simple flaque, et y voir un endroit familier comme si vous vous y trouviez. Vous pouvez seulement voir ce qui se passe à l’endroit choisi, mais vous n’entendez rien. On désigne par «endorit familier» tout lieu où vous avez passé beaucoup de temps (votre maison, le dojo, votre temple de prédilection, etc) ou dans lequel vous avez médité pendant au moins dix minutes. Toute étendue d’eau peut être utilisée pour ce Sort, mais comme le Sort permet de voir des images, celles-ci seront plus grandes et plus claires dans les étendues les plus vastes.</Description>
 	</SpellDef>
-	<SpellDef name="Rejuvenating Vapors" area="One target individual" mastery="2" element="water" range="Touch" duration="Instantaneous" id="rejuvenating_vapors">
+	<SpellDef name="Buée Revigorante" area="1 individu ciblé" mastery="2" element="water" range="Contact" duration="Intsantané" id="rejuvenating_vapors">
 		<Tags/>
 		<Raises>
-			<Raise>Targets (one additional person per 2 Raises)</Raise>
+			<Raise>Cibles (une personne supplémentaire par tranche de 2 Augmentations)</Raise>
 		</Raises>
-		<Description>Water washes away all that is impure, refreshing and reinvigorating all it touches. The target of this spell is instantly refreshed as if he had just arisen from a full night's sleep. This does not restore spent Void Points, but can eliminate fatigue and exhaustion. When used on a shugenja, this spell does restore the spell slots associated with the Void Ring (which can be used for any elements), but not the spell slots associated with other Rings. Abilities that characters may use a limited number of times per day are not refreshed by this spell. No Individual can benefit from Rejuvenating Vapors more than once within a 24-hour period.</Description>
+		<Description>L’Eau évacue toutes les impuretés, rafraîchissant et revigorant tout ce qu’elle touche. La cible de ce Sort est instantanément rafraîchie, comme si elle venait de se réveiller après une bonne nuit de sommeil. Ce Sort ne restaure pas les Points de Vide perdus, mais il permet d’éliminer la fatigue et l’épuisement. Utilisé sur un shugenja, il restaure les emplacements de Sort associsés à l’Anneau du Vide (qui peut être utilisé pour n’importe-quel élément), mais pas ceux des autres. Les capacités que les personnage peut utiliser un nombre limité de fois par jour ne sont pas restaurées par ce Sort.</Description>
 	</SpellDef>
-	<SpellDef name="Stand Against The Waves" area="One target individual" mastery="2" element="water" range="10'" duration="Instantaneous" id="stand_against_the_waves">
+	<SpellDef name="Résister aux Vagues d’Assaut" area="1 individu ciblé" mastery="2" element="water" range="3m" duration="Instantané" id="stand_against_the_waves">
 		<Tags>
 			<Tag>battle</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Range (10' per 3 Raises)</Raise>
+			<Raise>Portée (+3m par tranche de 3 Augmentations)</Raise>
 		</Raises>
-		<Description>A samurai who possesses the speed and strength of the mighty river is a dangerous foe indeed. The target of this spell gains a Simple Action during the Reaction Stage of the current Combat Round. This action may only be used to make an attack. If the target is incapable of making an attack as a Simple Action, this spell grants him a Complex Action instead. This spell cannot award a shugenja the ability to cast a second spell in the same Round.</Description>
+		<Description>Un samurai aussi vif et puissant qu’un fleuve fait un redoutable adversaire. La cible de ce Sort bénéficie d’une Action Simple durant l’étape de Réactions du Round de combat actuel. Cette action ne peut être utilisée que pour porter une attaque. Si la cible ne peut effectuer une attaque au moyen d’une Action Simple, ce Sort lui confère une Action Complexe à la place. Ce Sort ne peut pas donner à un shugenja la capacité de lancer un second Sort lors du même round.</Description>
 	</SpellDef>
-	<SpellDef name="The Ties That Bind" area="Self" mastery="2" element="water" range="10 miles" duration="Instantaneous" id="the_ties_that_bind">
+	<SpellDef name="Liens Spirituels" area="Personnel" mastery="2" element="water" range="16km" duration="Instantané" id="the_ties_that_bind">
 		<Tags>
 			<Tag>divination</Tag>
 		</Tags>
 		<Raises>
-			<Raise>Range (+2 miles)</Raise>
+			<Raise>Portée (+3,2km)</Raise>
 		</Raises>
-		<Description>Even the lightest touch forges a connection, and through the spirits of water that connection may be explored. This spell allows you to seek out the spirits of Water within a single, specific object. You must be familiar with the object in question, either having spent a great deal of time around it or handled it personally. If the object is within the range of this spell, you will know the direction and relative distance it is from your current position.</Description>
+		<Description>Le moindre contact crée un lien que l’onp peut exploiter et approfondir par le biais des experts de l’Eau. Ce Sort vous permet de chercher les esprits de l’Eau à l’intérieur d’un objet unique et spécifique. Vous devez bien connaître l’objet en question, soit en ayant passé beaucoup de temps près de lui, soit en l’æyant manié vous-même. Si l’objet se trouve à portée du Sort, vous savez dans quelle direction et à quelle distance approximative il se trouve par rapport à vous.</Description>
 	</SpellDef>
-	<SpellDef name="Wave-borne Speed" area="Self" mastery="2" element="water" range="Personal" duration="2 Rounds" id="waveborne_speed">
+	<SpellDef name="Porté par les Vagues" area="Personnel" mastery="2" element="water" range="Personnel" duration="2 Rounds" id="waveborne_speed">
 		<Tags>
 			<Tag>travel</Tag>
 		</Tags>
 		<Raises>
-			<Raise>None</Raise>
+			<Raise>Aucune</Raise>
 		</Raises>
-		<Description>The speed of the river can be imparted by knowledgeable shugenja. Your Water Ring is increased by 2 for the purposes of determining how far you may move as part of any Move Actions made during the present Round or the following Round.</Description>
+		<Description>Un shugenja compétent parvient à s’approprier la vivacité des eaux de la rivière. On ajoute 2 à votre Anneau d’Eau pour calculer la limite des déplacements effectués à l’aide l’Actions de Mouvement pendant ce Round et le suivant.</Description>
 	</SpellDef>
 	<SpellDef name="Essence Of Air" area="Self" mastery="3" element="air" range="Personal" duration="5 rounds" id="essence_of_air">
 		<Tags>
